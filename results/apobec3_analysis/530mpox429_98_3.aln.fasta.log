@@ -1,0 +1,635 @@
+IQ-TREE multicore version 2.3.0 COVID-edition for Linux 64-bit built Mar 14 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MPLCLTPO1437 (AVX512, FMA3, 15 GB RAM)
+Command: iqtree -s /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta -m HKY -czb -blmin 0.0000000001 -redo -asr -o KJ642615,KJ642616,KJ642617
+Seed:    841701 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep 19 21:02:51 2024
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta ... Fasta format detected
+Reading fasta file: done in 1.20749 secs using 84.11% CPU
+Alignment most likely contains DNA/RNA sequences
+WARNING: 6452 sites contain only gaps or ambiguous characters.
+Alignment has 530 sequences with 196858 columns, 101982 distinct patterns
+1625 parsimony-informative, 901 singleton sites, 194332 constant sites
+                                                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.567942 secs using 96.29% CPU
+   1  18MPX0083S|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2018-01-11                        25.53%    failed      0.00%
+   2  18MPX0115C|Homo_sapiens|DRC|Tshopo|Opala|cz|2018-02-22                            6.03%    passed     76.52%
+   3  18MPX0116C|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2018-02-15                       6.18%    passed     71.51%
+   4  18MPX0135C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2018-03-23                     6.47%    passed     84.83%
+   5  18MPX0145C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2018-03-23                     6.08%    passed     91.49%
+   6  18MPX0170C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-02-13                           5.99%    passed     87.77%
+   7  18MPX0172C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-03-08                           5.37%    passed     96.23%
+   8  18MPX0173C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-03-18                           5.33%    passed     98.26%
+   9  18MPX0174C|Homo_sapiens|DRC|Bas-Uele|Titule|cz|2018-04-24                         5.64%    passed     92.25%
+  10  18MPX0175C|Homo_sapiens|DRC|Bas-Uele|Titule|cz|2018-02-12                         5.13%    passed     96.07%
+  11  20MPX0003S|Homo_sapiens|DRC|Maindombe|Kiri|cz|2020-01-07                         13.01%    passed     12.76%
+  12  21MPX0197C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2021-06-15                         4.22%    passed     95.96%
+  13  21MPX0198C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2021-06-16                         6.02%    passed     84.88%
+  14  22hMPX035C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15                           3.44%    passed     95.58%
+  15  22hMPX035V|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15                           3.42%    passed     96.01%
+  16  22hMPX036C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15                           7.31%    passed     88.01%
+  17  22hMPX037Or|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15                          4.54%    passed     98.65%
+  18  22hMPX037V|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15                           8.30%    passed     94.47%
+  19  22hMPX040Or|Homo_sapiens|DRC|Maniema|Tunda|czd|2022-08-15                         5.80%    passed     92.51%
+  20  22hMPX040V|Homo_sapiens|DRC|Maniema|Tunda|czd|2022-08-15                          3.87%    passed     98.40%
+  21  22MPX0035V|Homo_sapiens|DRC|Maniema|Kindu|co|2022-02-05                           6.55%    passed     63.30%
+  22  22MPX0036V|Homo_sapiens|DRC|Maniema|Kindu|co|2022-02-05                           6.56%    passed     59.62%
+  23  22MPX0049C|Homo_sapiens|DRC|Equateur|Mbandaka|cz|2022-03-02                       5.76%    passed     99.77%
+  24  22MPX0050C|Homo_sapiens|DRC|Equateur|Mbandaka|cz|2022-03-02                       3.89%    passed     97.98%
+  25  22MPX0113C|Homo_sapiens|DRC|Kwilu|Masi-manimba|cz|2022-05-13                      6.67%    passed     90.00%
+  26  22MPX0127C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-05-13                           6.55%    passed     81.00%
+  27  22MPX0129C|Homo_sapiens|DRC|Kwilu|Kikongo|cz|2022-05-31                           3.47%    passed     94.49%
+  28  22MPX0139V|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2022-06-07                         3.51%    passed     95.20%
+  29  22MPX0156C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2022-06-22                         3.53%    passed     93.75%
+  30  22MPX0156V|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2022-06-22                         4.97%    passed     98.59%
+  31  22MPX0158V|Homo_sapiens|DRC|Kwilu|Vanga|cz|2022-06-18                             3.73%    passed     93.78%
+  32  22MPX0159V|Homo_sapiens|DRC|Kwilu|Vanga|cz|2022-06-18                             3.83%    passed     97.28%
+  33  22MPX0172V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-06-27                           4.25%    passed     96.89%
+  34  22MPX0173V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-06-27                           4.63%    passed     98.69%
+  35  22MPX0174V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2022-06-16                        10.88%    passed     90.04%
+  36  22MPX0191V|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-20                           4.27%    passed     97.19%
+  37  22MPX0193C|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-21                          18.11%    passed     25.57%
+  38  22MPX0193V|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-21                           5.92%    passed     98.72%
+  39  22MPX0222C|Homo_sapiens|DRC|Kasai|mushenge|cz|2022-07-8                          16.20%    passed     90.88%
+  40  22MPX0223C|Homo_sapiens|DRC|Kasai|mushenge|cz|2022-07-8                          21.32%    passed     55.60%
+  41  22MPX0280C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-07-27                          25.25%    passed     30.34%
+  42  22MPX0288C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-08-08                           5.20%    passed     98.74%
+  43  22MPX0290C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31                           4.12%    passed     97.49%
+  44  22MPX0291C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31                           4.66%    passed     98.58%
+  45  22MPX0292C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31                           4.95%    passed     97.52%
+  46  22MPX0296C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-28                          12.98%    failed      2.28%
+  47  22MPX0314V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2022-08-11                         4.22%    passed     94.77%
+  48  22MPX0317V|Homo_sapiens|DRC|Maniema|Alunguli|cz|2022-08-18                       25.86%    failed      0.25%
+  49  22MPX0338C|Homo_sapiens|DRC|Kwango|Kasongolunda|cz|2022-08-12                     4.87%    passed     85.51%
+  50  22MPX0402V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-13                           5.46%    passed     82.21%
+  51  22MPX0405V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21                           5.67%    passed     83.62%
+  52  22MPX0406V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21                           6.17%    passed     73.04%
+  53  22MPX0407C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21                           5.71%    passed     77.46%
+  54  22MPX0408C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-15                           7.33%    passed     75.36%
+  55  22MPX0409V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21                           4.85%    passed     89.98%
+  56  22MPX0410V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-15                           5.11%    passed     90.24%
+  57  22MPX0412C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-22                          12.32%    passed     40.77%
+  58  22MPX0420C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09                        6.39%    passed     75.13%
+  59  22MPX0421C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09                        5.35%    passed     93.33%
+  60  22MPX0422C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09                        9.50%    passed     90.64%
+  61  22MPX0423C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09                        3.97%    passed     95.12%
+  62  22MPX0424C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09                        3.77%    passed     98.45%
+  63  22MPX0452V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2022-09-23                       6.76%    passed     99.85%
+  64  22MPX0486C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2022-09-03                         4.99%    passed     85.62%
+  65  22MPX0502s|Homo_sapiens|DRC|Kwilu|Bandundu|cz|2022-10-06                         15.71%    passed     99.65%
+  66  22MPX0503C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30                        6.25%    passed     78.27%
+  67  22MPX0504C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30                        6.71%    passed     77.88%
+  68  22MPX0505C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30                        6.31%    passed     72.44%
+  69  22MPX0506C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01                        3.76%    passed     95.88%
+  70  22MPX0506V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01                        3.40%    passed     95.03%
+  71  22MPX0507V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01                        3.42%    passed     96.08%
+  72  22MPX0508C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01                        4.11%    passed     99.51%
+  73  22MPX0508V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01                        6.17%    passed     75.45%
+  74  22MPX0509C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01                        5.04%    passed     83.18%
+  75  22MPX0510V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01                        4.47%    passed     96.56%
+  76  22MPX0511C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-17                           6.79%    passed     75.46%
+  77  22MPX0512V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-09-16                           6.02%    passed     75.34%
+  78  22MPX0513C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-09-19                           4.96%    passed     90.36%
+  79  22MPX0515C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-03                           6.77%    passed     77.44%
+  80  22MPX0515V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-03                          21.59%    failed      0.00%
+  81  22MPX0548V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-26                           3.36%    passed     94.51%
+  82  22MPX0549V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-26                           3.37%    passed     94.80%
+  83  22MPX0610C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31                            3.37%    passed     94.10%
+  84  22MPX0610V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31                            3.37%    passed     94.18%
+  85  22MPX0611V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31                            3.83%    passed     88.43%
+  86  22MPX0612V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08                           3.55%    passed     97.85%
+  87  22MPX0613V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08                           3.88%    passed     98.29%
+  88  22MPX0614V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08                           3.83%    passed     98.18%
+  89  22MPX0615V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08                           3.78%    passed     99.05%
+  90  22MPX0636V|Homo_sapiens|DRC|Kasai|Ndjoko-punda|cz|2022-12-17                      3.66%    passed     98.47%
+  91  23MPX0002S|Homo_sapiens|DRC|Maniema|Obokote|cz|2022-10-11                         4.14%    passed     98.99%
+  92  23MPX0011C|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23                          13.92%    failed      0.00%
+  93  23MPX0014V|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23                           3.98%    passed     98.54%
+  94  23MPX0015V|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23                           6.60%    passed     76.48%
+  95  23MPX0018C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-10-02                          8.35%    passed     82.75%
+  96  23MPX0019C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-10-02                          6.32%    passed     74.45%
+  97  23MPX0022V|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-07-30                          4.44%    passed     89.97%
+  98  23MPX0028V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18                           6.41%    passed     69.23%
+  99  23MPX0030V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-16                           6.17%    passed     70.30%
+ 100  23MPX0033C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-16                           3.38%    passed     95.31%
+ 101  23MPX0034C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18                           4.54%    passed     96.32%
+ 102  23MPX0035C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18                           3.43%    passed     96.03%
+ 103  23MPX0036C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-28                           6.50%    passed     71.92%
+ 104  23MPX0037C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-27                          29.13%    failed      2.48%
+ 105  23MPX0038C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-28                           6.61%    passed     75.13%
+ 106  23MPX0039C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-16                          17.92%    failed      3.24%
+ 107  23MPX0040C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-16                           6.56%    passed     74.48%
+ 108  23MPX0043C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-05                           5.96%    passed     68.47%
+ 109  23MPX0044C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30                            6.37%    passed     73.22%
+ 110  23MPX0045V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30                            6.42%    passed     70.53%
+ 111  23MPX0046C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30                            6.39%    passed     68.28%
+ 112  23MPX0047C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07                           6.41%    passed     66.21%
+ 113  23MPX0048C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-05                           6.14%    passed     70.86%
+ 114  23MPX0049C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07                           6.24%    passed     73.30%
+ 115  23MPX0057C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06                           6.08%    passed     78.21%
+ 116  23MPX0059C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06                           5.98%    passed     72.44%
+ 117  23MPX0060C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07                           6.23%    passed     69.08%
+ 118  23MPX0061C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06                           5.96%    passed     71.08%
+ 119  23MPX0062C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07                           6.23%    passed     69.61%
+ 120  23MPX0063S|Homo_sapiens|DRC|Kasai|Kalonda-Ouest|cz|2022-12-31                    27.15%    failed      4.86%
+ 121  23MPX0064C|Homo_sapiens|DRC|Kasai|Kamuesha|cz|2023-01-05                          6.39%    passed     69.38%
+ 122  23MPX0069C|Homo_sapiens|DRC|Kasai|Kamuesha|cz|2023-01-05                          5.46%    passed     77.46%
+ 123  23MPX0070V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-10                       6.38%    passed     82.28%
+ 124  23MPX0072C|Homo_sapiens|DRC|Tshopo|Tshopo|cz|2023-01-13                          12.93%    passed     88.40%
+ 125  23MPX0073C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-11-23                           6.42%    passed     70.57%
+ 126  23MPX0074C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-24                           6.22%    passed     73.38%
+ 127  23MPX0075V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29                           3.41%    passed     92.37%
+ 128  23MPX0076V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29                           3.77%    passed     93.10%
+ 129  23MPX0077C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-10                           7.27%    passed     74.97%
+ 130  23MPX0078C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-15                          12.01%    passed     82.41%
+ 131  23MPX0079V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29                           6.65%    passed     70.52%
+ 132  23MPX0081C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-31                           7.12%    passed     88.74%
+ 133  23MPX0082V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-31                           3.94%    passed     93.89%
+ 134  23MPX0084C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-28                           8.54%    passed     88.96%
+ 135  23MPX0085C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-02                           7.08%    passed     82.13%
+ 136  23MPX0087C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-20                          16.38%    passed     93.34%
+ 137  23MPX0088C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-02                          16.32%    passed     94.01%
+ 138  23MPX0125V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-01                           6.57%    passed     74.87%
+ 139  23MPX0126V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-23                       8.21%    passed     84.98%
+ 140  23MPX0130C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-01-24                     6.02%    passed     68.75%
+ 141  23MPX0134C|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24                        8.61%    passed     95.95%
+ 142  23MPX0135V|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24                        6.78%    passed     59.48%
+ 143  23MPX0136V|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24                        5.52%    passed     78.24%
+ 144  23MPX0140C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-12-26                          5.85%    passed     73.39%
+ 145  23MPX0147V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-01                       6.48%    passed     78.29%
+ 146  23MPX0148V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-01                       5.18%    passed     79.79%
+ 147  23MPX0184C|Homo_sapiens|DRC|Tshopo|Basali|cz|2023-02-08                           6.60%    passed     71.51%
+ 148  23MPX0185V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-26                       5.86%    passed     72.80%
+ 149  23MPX0186V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-07                       8.01%    passed     60.07%
+ 150  23MPX0187C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-02                           5.49%    passed     76.85%
+ 151  23MPX0196V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-12                           6.15%    passed     76.17%
+ 152  23MPX0197V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-07                           3.60%    passed     95.82%
+ 153  23MPX0198V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-28                       6.11%    passed     72.81%
+ 154  23MPX0199V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-15                           6.79%    passed     78.42%
+ 155  23MPX0214C|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28                       3.50%    passed     94.85%
+ 156  23MPX0215V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28                       3.43%    passed     94.27%
+ 157  23MPX0216V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28                       3.40%    passed     95.00%
+ 158  23MPX0225V|Homo_sapiens|DRC|Equateur|Ingende|cz|2023-03-06                        5.84%    passed     75.03%
+ 159  23MPX0228V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-02-20                        6.29%    passed     73.96%
+ 160  23MPX0245C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-03-22                            7.22%    passed     85.83%
+ 161  23MPX0245V|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-03-22                            6.43%    passed     74.02%
+ 162  23MPX0269C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-03-23                       10.19%    passed     90.10%
+ 163  23MPX0273C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-23                        5.78%    passed     78.75%
+ 164  23MPX0274S|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-23                        3.43%    passed     96.79%
+ 165  23MPX0278C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25                        3.46%    passed     97.78%
+ 166  23MPX0279S|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25                       11.24%    passed      5.49%
+ 167  23MPX0288C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25                        3.45%    passed     97.21%
+ 168  23MPX0291V|Homo_sapiens|DRC|Equateur|Ingende|cz|2023-03-23                       11.25%    failed      0.44%
+ 169  23MPX0334C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-24                        7.65%    passed     82.07%
+ 170  23MPX0338V|Homo_sapiens|DRC|Mongala|Bongandanga|cz|2023-03-10                     6.43%    passed     75.58%
+ 171  23MPX0340C|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-03-29                   7.86%    passed     80.44%
+ 172  23MPX0341C|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-03-29                   3.49%    passed     97.77%
+ 173  23MPX0354V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-03-21                            8.03%    passed     96.03%
+ 174  23MPX0355V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-02-22                            5.65%    passed     88.32%
+ 175  23MPX0356V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-02-25                            6.38%    passed     76.15%
+ 176  23MPX0357V|Homo_sapiens|DRC|Tshopo|Ubundu|cz|2023-03-29                          21.25%    passed     93.75%
+ 177  23MPX0359V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21                           6.21%    passed     70.44%
+ 178  23MPX0361V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21                           6.03%    passed     72.05%
+ 179  23MPX0362V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21                           6.26%    passed     72.79%
+ 180  23MPX0365V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05                     7.43%    passed     83.19%
+ 181  23MPX0366C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05                     7.18%    passed     79.64%
+ 182  23MPX0367C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05                     7.57%    passed     85.07%
+ 183  23MPX0368V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-03-25                      11.05%    passed     97.96%
+ 184  23MPX0369V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05                       6.63%    passed     71.08%
+ 185  23MPX0370C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05                       6.66%    passed     72.91%
+ 186  23MPX0372V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05                       6.53%    passed     74.42%
+ 187  23MPX0373V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05                       6.33%    passed     76.46%
+ 188  23MPX0374C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-03-27                      28.92%    passed     60.29%
+ 189  23MPX0375C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05                       7.65%    passed     99.68%
+ 190  23MPX0376V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05                       6.88%    passed     96.48%
+ 191  23MPX0377V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05                           4.41%    passed     97.06%
+ 192  23MPX0378V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05                           6.27%    passed     75.04%
+ 193  23MPX0379V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05                           6.08%    passed     75.75%
+ 194  23MPX0380C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2023-04-05                         5.57%    passed     75.11%
+ 195  23MPX0381C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2023-04-05                         5.56%    passed     76.21%
+ 196  23MPX0383V|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-04-04                            6.36%    passed     70.44%
+ 197  23MPX0451C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                     6.21%    passed     76.27%
+ 198  23MPX0452V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                     7.95%    passed     67.67%
+ 199  23MPX0453V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                     4.52%    passed     90.79%
+ 200  23MPX0454V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                     6.37%    passed     71.64%
+ 201  23MPX0455V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                     6.42%    passed     81.67%
+ 202  23MPX0457V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                     8.79%    passed     74.99%
+ 203  23MPX0459V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                    17.06%    passed     37.41%
+ 204  23MPX0460C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                     7.10%    passed     82.46%
+ 205  23MPX0461C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30                     7.36%    passed     85.55%
+ 206  23MPX0462V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-13                     6.09%    passed     70.77%
+ 207  23MPX0463C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-13                     5.91%    passed     67.78%
+ 208  23MPX0464C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-13                           6.62%    passed     73.83%
+ 209  23MPX0465C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-13                           6.34%    passed     76.70%
+ 210  23MPX0466C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-07                           3.38%    passed     94.22%
+ 211  23MPX0467C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-07                           3.39%    passed     94.98%
+ 212  23MPX0468C|Homo_sapiens|DRC|Haut-Uele|Pawa|cz|2023-03-30                          3.89%    passed     98.78%
+ 213  23MPX0469C|Homo_sapiens|DRC|Haut-Uele|Pawa|cz|2023-03-30                          7.95%    passed     91.66%
+ 214  23MPX0471C|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-11                        6.40%    passed     76.12%
+ 215  23MPX0473C|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-11                        4.62%    passed     91.31%
+ 216  23MPX0475C|Homo_sapiens|DRC|Maindombe|Mushie|cz|2023-04-22                        6.64%    passed     68.63%
+ 217  23MPX0476V|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-04                        6.18%    passed     75.62%
+ 218  23MPX0485V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22                         6.15%    passed     72.70%
+ 219  23MPX0486V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22                         6.47%    passed     76.90%
+ 220  23MPX0487V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-24                         6.29%    passed     74.44%
+ 221  23MPX0489V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22                         6.11%    passed     70.95%
+ 222  23MPX0490V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22                         5.87%    passed     74.51%
+ 223  23MPX0491C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22                         5.36%    passed     99.31%
+ 224  23MPX0492V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23                         4.42%    passed     97.38%
+ 225  23MPX0493V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23                         3.42%    passed     95.92%
+ 226  23MPX0494V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23                        21.49%    passed     35.31%
+ 227  23MPX0495C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-05-03                         6.16%    passed     67.10%
+ 228  23MPX0508V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-26                           3.87%    passed     98.32%
+ 229  23MPX0509V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-27                           4.28%    passed     97.93%
+ 230  23MPX0510V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-27                           4.08%    passed     98.35%
+ 231  23MPX0642V|Homo_sapiens|DRC|Mongala|Bongandanga|cz|2023-06-13                     9.63%    passed     46.02%
+ 232  23MPX0644V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-08                        3.44%    passed     96.41%
+ 233  23MPX0645V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-08                        3.80%    passed     98.42%
+ 234  23MPX0646V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-07                        3.48%    passed     97.80%
+ 235  23MPX0647V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15                        3.41%    passed     95.36%
+ 236  23MPX0648V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15                        3.42%    passed     96.15%
+ 237  23MPX0649V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15                       49.26%    failed      0.00%
+ 238  23MPX0723V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17                        4.67%    passed     98.70%
+ 239  23MPX0727V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17                        6.88%    passed     95.62%
+ 240  23MPX0732V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-18                       12.07%    failed      1.05%
+ 241  23MPX0738V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17                       12.07%    failed      1.05%
+ 242  23MPX0751V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07                    4.88%    passed     98.53%
+ 243  23MPX0752V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-26                    3.61%    passed     98.43%
+ 244  23MPX0755V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07                    7.01%    passed     98.65%
+ 245  23MPX0756V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07                    3.44%    passed     96.57%
+ 246  23MPX0757V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-03                17.74%    failed      0.00%
+ 247  23MPX0758V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-02                17.74%    failed      0.00%
+ 248  23MPX0759V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-04                 3.63%    passed     97.90%
+ 249  23MPX0769V|Homo_sapiens|DRC|Sankuru|Ototi|cz|2023-06-28                           7.56%    passed     95.70%
+ 250  23MPX0770V|Homo_sapiens|DRC|Sankuru|Ototi|cz|2023-06-23                          10.00%    passed     86.51%
+ 251  23MPX0877V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-05-08                        6.20%    passed     76.48%
+ 252  23MPX0878V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-05-10                        5.73%    passed     80.64%
+ 253  23MPX0896S|Homo_sapiens|DRC|Sud-Ubangi|Gemena|cz|2023-07-14                      24.24%    passed     69.57%
+ 254  23MPX1037V|Homo_sapiens|DRC|Equateur|Lilanga|cz|2023-07-31                       29.34%    passed     85.17%
+ 255  23MPX1040V|Homo_sapiens|DRC|Equateur|Wangata|cz|2023-07-27                        6.17%    passed     71.40%
+ 256  23MPX1053V|Homo_sapiens|DRC|Tshopo|Kabondo|cz|2023-07-23                          6.48%    passed     67.81%
+ 257  23MPX1063V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31                        6.15%    passed     73.41%
+ 258  23MPX1064V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31                        6.45%    passed     70.84%
+ 259  23MPX1071V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-22                        4.44%    passed     90.85%
+ 260  23MPX1072C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-22                        3.91%    passed     96.93%
+ 261  23MPX1073V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-08-11                        3.84%    passed     95.02%
+ 262  23MPX1077C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31                       10.92%    passed     90.97%
+ 263  23MPX1085C|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-07-30                      13.19%    passed     99.31%
+ 264  23MPX1093V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-07-29                      6.42%    passed     75.50%
+ 265  23MPX1107C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-11                           3.63%    passed     95.88%
+ 266  23MPX1108C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-15                           3.47%    passed     96.63%
+ 267  23MPX1109C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-11                           4.18%    passed     99.68%
+ 268  23MPX1115C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-30                           6.94%    passed     77.46%
+ 269  23MPX1137V|Homo_sapiens|DRC|Sud-Ubangi|Ndage|cz|2023-08-07                       11.53%    passed     72.88%
+ 270  23MPX1143C|Homo_sapiens|DRC|Kinshasa|Gombe|cz|2023-08-18                          8.27%    passed     96.39%
+ 271  23MPX1143V|Homo_sapiens|DRC|Kinshasa|Gombe|cz|2023-08-18                          3.79%    passed     96.54%
+ 272  23MPX1157C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-07-17                            6.30%    passed     70.03%
+ 273  23MPX1185V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-07-16                          28.73%    passed     75.55%
+ 274  23MPX1190C|Homo_sapiens|DRC|Equateur|Djombo|cz|2023-08-12                         6.42%    passed     74.50%
+ 275  23MPX1194C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-08-11                         8.40%    passed     88.36%
+ 276  23MPX1199V|Homo_sapiens|DRC|Sud-Ubangi|Libenge|cz|2023-08-09                      7.43%    passed     77.15%
+ 277  23MPX1229V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-23                          6.28%    passed     74.51%
+ 278  23MPX1273C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-08-20                          27.76%    passed     50.64%
+ 279  23MPX1275C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-17                          20.95%    passed     61.12%
+ 280  23MPX1289V|Homo_sapiens|DRC|Kinshasa|Matete|cz|2023-09-08                         6.29%    passed     72.38%
+ 281  23MPX1300V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-08-12                            6.41%    passed     66.03%
+ 282  23MPX1302C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-09-05                           11.14%    passed     68.30%
+ 283  23MPX1303C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-08                           6.15%    passed     69.27%
+ 284  23MPX1393C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-09                          21.56%    passed     56.29%
+ 285  23MPX1396V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-09                          27.84%    passed     39.03%
+ 286  23MPX1398V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-09-08                           5.29%    passed     98.05%
+ 287  23MPX1442C|Homo_sapiens|DRC|Sud-Ubangi|Boto|cz|2023-09-10                         3.54%    passed     96.41%
+ 288  23MPX1443V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-03                    3.56%    passed     98.12%
+ 289  23MPX1446C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|cz|2023-08-14                      3.37%    passed     94.86%
+ 290  23MPX1447C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|cz|2023-09-12                      5.89%    passed     78.19%
+ 291  23MPX1448C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2023-08-27                         3.38%    passed     94.74%
+ 292  23MPX1449V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2023-08-27                         3.46%    passed     95.84%
+ 293  23MPX1452V|Homo_sapiens|DRC|Kwilu|Bagata|cz|2023-09-19                           10.09%    passed     82.76%
+ 294  23MPX1454C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-08-29                       15.09%    passed     14.23%
+ 295  23MPX1455C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22                         28.30%    failed      0.00%
+ 296  23MPX1457V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22                          4.09%    passed     98.04%
+ 297  23MPX1458V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-09-22                          6.42%    passed     83.37%
+ 298  23MPX1460C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22                          3.41%    passed     95.31%
+ 299  23MPX1462C|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-23                        3.40%    passed     93.10%
+ 300  23MPX1463V|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-25                        3.40%    passed     94.78%
+ 301  23MPX1464V|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-28                        4.51%    passed     99.18%
+ 302  23MPX1470V|Homo_sapiens|DRC|Equateur|Ntondo|cz|2023-10-04                         3.37%    passed     94.22%
+ 303  23MPX1471V|Homo_sapiens|DRC|Equateur|Ntondo|cz|2023-10-04                         3.40%    passed     94.40%
+ 304  23MPX1478C|Homo_sapiens|DRC|Kinshasa|Lemba|cz|2023-10-06                          3.45%    passed     96.68%
+ 305  23MPX1484V|Homo_sapiens|DRC|Sankuru|Vanga-Kete|cz|2023-10-01                      4.65%    passed     99.89%
+ 306  23MPX1493S|Homo_sapiens|DRC|Equateur|Lotumbe|cz|2023-10-02                        5.01%    passed     99.22%
+ 307  23MPX1495S|Homo_sapiens|DRC|Equateur|Lotumbe|cz|2023-10-03                        9.94%    passed     14.59%
+ 308  23MPX1506V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-10-05                     3.48%    passed     96.00%
+ 309  23MPX1511C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-10-06                            3.42%    passed     95.26%
+ 310  23MPX1512S|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-10-06                            5.50%    passed     90.66%
+ 311  23MPX1529V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-10-06                      3.37%    passed     93.95%
+ 312  23MPX1530V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-10-06                      3.64%    passed     98.46%
+ 313  23MPX1535C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-11                    3.38%    passed     95.09%
+ 314  23MPX1536V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-26                    3.52%    passed     97.29%
+ 315  23MPX1538C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-02                    4.53%    passed     99.51%
+ 316  23MPX1539V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-02                    3.41%    passed     95.92%
+ 317  23MPX1540V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-07                    4.51%    passed     99.45%
+ 318  23MPX1541V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-08                    3.40%    passed     95.81%
+ 319  23MPX1554V|Homo_sapiens|DRC|Kinshasa|Nsele|cz|2023-10-25                          3.39%    passed     94.34%
+ 320  23MPX1555V|Homo_sapiens|DRC|Kinshasa|Limete|cz|2023-10-26                         3.76%    passed     99.06%
+ 321  23MPX1626C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-08-06                    5.94%    passed     65.75%
+ 322  23MPX1627C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-08-06                    5.89%    passed     80.42%
+ 323  23MPX1636C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-21                           5.93%    passed     76.99%
+ 324  23MPX1643C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27                          10.11%    passed     61.99%
+ 325  23MPX1644C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27                           7.80%    passed     97.27%
+ 326  23MPX1645V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27                           8.08%    passed     75.30%
+ 327  23MPX1646V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27                           6.63%    passed     72.20%
+ 328  23MPX1648V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27                           7.57%    passed     76.96%
+ 329  23MPX1658V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-10-20                   5.96%    passed     73.52%
+ 330  23MPX1660V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-11-01                  12.39%    passed     64.17%
+ 331  23MPX1661V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-11-04                   5.53%    passed     88.01%
+ 332  23MPX1663V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31                        6.35%    passed     75.84%
+ 333  23MPX1664V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31                        8.41%    passed     92.51%
+ 334  23MPX1665V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31                        8.34%    passed     97.39%
+ 335  23MPX1666C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31                        6.16%    passed     79.27%
+ 336  23MPX1667C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31                        4.80%    passed     98.90%
+ 337  23MPX1668C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31                        4.72%    passed     97.96%
+ 338  23MPX1669C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22                          4.68%    passed     99.40%
+ 339  23MPX1670V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22                          5.02%    passed     97.49%
+ 340  23MPX1671C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-18                          4.61%    passed     99.86%
+ 341  23MPX1672C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-20                          5.39%    passed     97.58%
+ 342  23MPX1673V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22                          6.76%    passed     84.45%
+ 343  23MPX1674C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-21                            5.63%    passed     92.24%
+ 344  23MPX1675S|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-27                            3.39%    passed     95.34%
+ 345  23MPX1676C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-27                            6.04%    passed     71.06%
+ 346  23MPX1677C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-21                            6.34%    passed     69.27%
+ 347  23MPX1686V|Homo_sapiens|DRC|Mongala|Bosondjo|cz|2023-11-01                        6.59%    passed     72.82%
+ 348  23MPX1709C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-11-14                           10.31%    passed     82.86%
+ 349  24MPX0kum|Homo_sapiens|DRC|Sud-Ubangi|Bulu|iv|2024-02-15                          3.32%    passed     92.94%
+ 350  24MPX0204V|Homo_sapiens|Sud-Kivu|Kamituga|cz|2024-01-23                           9.19%    passed     82.44%
+ 351  24MPX0212Or|Homo_sapiens|Sud-Kivu|Kamituga|cz|2024-01-20                         27.84%    passed     61.33%
+ 352  24MPX0303C|Homo_sapiens|Maindombe|Inongo|cz|2023-11-23                            7.10%    passed     85.07%
+ 353  24MPX0305V|Homo_sapiens|Maindombe|Inongo|cz|2023-11-23                            8.63%    passed     93.16%
+ 354  24MPX0323C|Homo_sapiens|Sud-Ubangi|Bogose-Nubea|cz|2024-01-30                     6.80%    passed     79.46%
+ 355  24MPX0429V|Homo_sapiens|Maindombe|Oshwe|cz|2024-01-08                            26.90%    passed     72.25%
+ 356  24MPX0443V|Homo_sapiens|Equateur|Lukolela|cz|2024-01-22                           9.03%    passed     95.08%
+ 357  24MPX0486V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX                             23.49%    passed     19.89%
+ 358  24MPX0495V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX                             10.88%    passed     96.06%
+ 359  24MPX0509V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX                             11.10%    passed     95.76%
+ 360  24MPX0513V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2024-02-10                         6.63%    passed      9.24%
+ 361  24MPX0514V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2024-02-10                         9.72%    failed      0.00%
+ 362  24MPX0535C|Homo_sapiens|Sud-Ubangi|Kungu|cz|2024-02-07                           14.49%    failed      0.00%
+ 363  24MPX0541V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX                             18.58%    passed     75.38%
+ 364  24MPX0571V|Homo_sapiens|Tshopo|Basoko|cz|2024-02-10                               4.64%    passed     80.56%
+ 365  24MPX0572C|Homo_sapiens|Tshopo|Basoko|cz|2024-02-27                              12.97%    failed      0.00%
+ 366  24MPX0574C|Homo_sapiens|Tshopo|Basoko|cz|2024-02-27                              12.54%    failed      0.42%
+ 367  24MPX0575V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14                              24.45%    failed      0.00%
+ 368  24MPX0576V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14                              25.79%    failed      0.00%
+ 369  24MPX0577V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14                               6.20%    passed     83.49%
+ 370  24MPX0578V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14                              13.15%    failed      0.00%
+ 371  24MPX0579C|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14                              11.04%    failed      0.22%
+ 372  24MPX0580C|Homo_sapiens|Tshopo|Yaleko|cz|2024-02-14                               4.59%    passed     94.65%
+ 373  24MPX0581V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-05                               4.22%    passed     98.40%
+ 374  24MPX0582V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14                               5.39%    passed     82.37%
+ 375  24MPX0588V|Homo_sapiens|Equateur|Bikoro|cz|2024-02-29                            23.84%    failed      0.00%
+ 376  24MPX0589V|Homo_sapiens|Equateur|Bikoro|cz|2024-02-29                            12.58%    failed      0.00%
+ 377  24MPX0590C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-26                            19.26%    failed      0.00%
+ 378  24MPX0591C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-26                             4.04%    passed     99.41%
+ 379  24MPX0592C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-18                             9.68%    passed      5.23%
+ 380  24MPX0593C|Homo_sapiens|Sud-Ubangi|Bangabola|cz|2024-02-25                        5.51%    passed     94.08%
+ 381  24MPX0594V|Homo_sapiens|Sud-Ubangi|Bokungu|cz|2024-02-10                         30.41%    failed      0.00%
+ 382  24MPX0595V|Homo_sapiens|Sud-Ubangi|Ndage|cz|2024-02-24                           12.19%    failed      0.00%
+ 383  24MPX0611V|Homo_sapiens|Sud-Ubangi|Budjala|cz|2024-02-22                          3.41%    passed     95.54%
+ 384  24MPX0748V|Homo_sapiens|Tshopo|Yakusu|cz|2024-03-10                              20.53%    passed     52.50%
+ 385  24MPX0755S|Homo_sapiens|Equateur|Lukolela|cz|2024-03-11                          22.18%    passed     54.95%
+ 386  24MPX0756V|Homo_sapiens|Equateur|Lukolela|cz|2024-03-11                          18.18%    passed     43.18%
+ 387  24MPX0757V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-04                            16.56%    passed     94.62%
+ 388  24MPX0758V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-04                            14.02%    passed     98.53%
+ 389  24MPX0760V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08                            28.23%    failed      1.42%
+ 390  24MPX0761V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08                            11.40%    passed     99.88%
+ 391  24MPX0762V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08                            10.52%    passed     99.30%
+ 392  24MPX0763V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-13                            13.31%    passed     98.42%
+ 393  24MPX0764V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-14                             9.54%    passed     99.99%
+ 394  24MPX0765V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-15                            11.56%    passed     99.73%
+ 395  24MPX0767V|Homo_sapiens|Equateur|Lilanga-Bobangi|cz|2024-03-10                   10.64%    passed     99.83%
+ 396  24MPX0813V|Homo_sapiens|Equateur|Mbandaka|cz|2024-03-29                          19.08%    passed     98.85%
+ 397  24MPX0814C|Homo_sapiens|Equateur|Mbandaka|cz|2024-03-29                          14.97%    passed     97.22%
+ 398  24MPX0817V|Homo_sapiens|Mongala|Bosondjo|cz|2024-02-04                           11.77%    passed     99.67%
+ 399  24MPX0823V|Homo_sapiens|Sud-Ubangi|Bulu|cz|2024-03-22                            12.94%    passed     99.98%
+ 400  DQ011154|Homo_sapiens|RC|Likouala|Impfondo|bg|2003-06-09                          3.35%    passed     94.93%
+ 401  DQ011155|Homo_sapiens|DRC|Sankuru|Mindembo|bg|1978-11-09                          3.35%    passed     94.86%
+ 402  JX878407|Homo_sapiens|DRC|Sankuru|Kole|bg|2006-10-09                              3.66%    passed     96.58%
+ 403  JX878408|Homo_sapiens|DRC|Sankuru|Katako-kombe|bg|2006-10-31                      3.32%    passed     94.55%
+ 404  JX878409|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-09                         3.38%    passed     93.64%
+ 405  JX878410|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-24                         3.38%    passed     94.05%
+ 406  JX878411|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-30                         3.38%    passed     93.64%
+ 407  JX878412|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-30                         3.38%    passed     93.11%
+ 408  JX878413|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-14                            3.34%    passed     94.09%
+ 409  JX878414|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-14                            3.34%    passed     94.09%
+ 410  JX878415|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-26                            3.34%    passed     94.09%
+ 411  JX878416|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-26                            3.34%    passed     94.08%
+ 412  JX878417|Homo_sapiens|DRC|Sankuru|Bena-dibele|bg|2006-12-14                       3.41%    passed     94.10%
+ 413  JX878418|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-01-02                      3.32%    passed     93.75%
+ 414  JX878419|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-02-10                      3.32%    passed     94.34%
+ 415  JX878420|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-02-26                      3.32%    passed     94.33%
+ 416  JX878421|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-03-22                            3.34%    passed     93.98%
+ 417  JX878422|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-03-20                            3.34%    passed     94.03%
+ 418  JX878423|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-03-25                              3.66%    passed     96.67%
+ 419  JX878424|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-03-25                              3.66%    passed     96.68%
+ 420  JX878425|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-04-20                            3.66%    passed     96.55%
+ 421  JX878426|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-05-27                              3.32%    passed     94.11%
+ 422  JX878427|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-05-25                            3.34%    passed     94.01%
+ 423  JX878428|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-06-30                            3.34%    passed     94.08%
+ 424  JX878429|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-09-04                            3.66%    passed     96.51%
+ 425  KC257459|Homo_sapiens|Sudan|Nuria||bg|2005-XX-XX                                  4.43%    passed     91.64%
+ 426  KC257460|Homo_sapiens|DRC|Mongala|Yandongi|bg|1985-XX-XX                          3.46%    passed     92.56%
+ 427  KJ642612|Homo_sapiens|DRC|Kwilu|Idiofa-Ikubi|bg|1986-XX-XX                        4.25%    passed     94.73%
+ 428  KJ642613|Homo_sapiens|DRC|Equateur|Bokenda|bg|1970-09-01                          3.45%    passed     93.68%
+ 429  KJ642615                                                                          4.60%    passed     86.15%
+ 430  KJ642616                                                                          5.03%    passed     92.60%
+ 431  KJ642617                                                                          4.71%    passed     83.82%
+ 432  KJ642618|Homo_sapiens|Cameroon|Centre-Region|Ekoumdouma|bg|1989-12-11             4.71%    passed     96.27%
+ 433  KJ642619|Homo_sapiens|Gabon|Moyen-Ogooue|Lambarene|bg|1987-06-XX                  3.41%    passed     95.85%
+ 434  KP849469|Homo_sapiens|DRC|Tshuapa|Boende|bg|2008-XX-XX                            3.32%    passed     92.89%
+ 435  KP849471|Funisciurus_anerythrus|DRC|Mongala|Yambuku|bg|1985-07-XX                 3.32%    passed     92.93%
+ 436  MN702444|Homo_sapiens|CAR|Mambere-Kadei|Bao|bg|2017-02-06                         6.58%    passed     69.34%
+ 437  MN702445|Homo_sapiens|CAR|Mambere-Kadei|Bao|bg|2017-02-06                         6.59%    passed     70.03%
+ 438  MN702446|Homo_sapiens|CAR|Mbomou|Rafai|bg|2018-04-14                              3.54%    passed     91.93%
+ 439  MN702447|Homo_sapiens|CAR|Mbomou|Rafai|bg|2018-03-20                              6.83%    passed     71.42%
+ 440  MN702448|Homo_sapiens|CAR|Ouaka|Ippy|bg|2018-03-07                                6.83%    passed     71.07%
+ 441  MN702449|Homo_sapiens|CAR|Mbomou|Bangassou|bg|2016-01-02                          6.58%    passed     69.56%
+ 442  MN702450|Homo_sapiens|CAR|Mbomou|Bakouma|bg|2016-01-01                            6.55%    passed     65.22%
+ 443  MN702451|Homo_sapiens|CAR|Lobaye|Mbaiki|bg|2017-04-14                             6.56%    passed     66.52%
+ 444  MN702452|Homo_sapiens|CAR|Lobaye|Mongoumba|bg|2010-08-10                          3.56%    passed     93.71%
+ 445  MN702453|Homo_sapiens|CAR|Mbomou|Bangassou|bg|2001-08-11                          3.87%    passed     94.12%
+ 446  MT724770|Crocidura_littoralis|DRC|Tshopo|Yangambi|bg|2014-01-01                   3.56%    passed     90.89%
+ 447  MT724771|Funisciurus_bayonii|DRC|Tshopo||bg|2014-01-01                           34.27%    passed     21.10%
+ 448  MT724772|Funisciurus_anerythrus|DRC|Tshopo|Tshopo|bg|2014-01-01                   3.62%    passed     89.47%
+ 449  NC_003310|Homo_sapiens|DRC|Sankuru|Katako-kombe|bg|1996-XX-XX                     3.28%    passed     95.38%
+ 450  OP498046|Homo_sapiens|Gabon|||bg|1988-XX-XX                                       3.40%    passed     95.31%
+ 451  OQ621553|Homo_sapiens|Sudan|||bg|2022-10-XX                                       4.56%    passed     92.24%
+ 452  OQ729808|Homo_sapiens|DRC|||bg|2022-XX-XX                                         3.32%    passed     92.35%
+ 453  OR943698|Pan_troglodytes|Cameroon|Centre-Region||bg|2016-08-XX                    3.42%    passed     94.10%
+ 454  PP601182_23MPX1740C|Homo_sapiens|DRC|Sud-Ubangi|Tandala|bg|2023-11-09             4.75%    passed     99.33%
+ 455  PP601183_23MPX1766C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|bg|2023-11-21             3.35%    passed     95.58%
+ 456  PP601184_23MPX1769C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|bg|2023-11-25             7.10%    passed     76.15%
+ 457  PP601185_23MPX1786C|Homo_sapiens|DRC|Sud-Ubangi|Tandala|bg|2023-12-18            17.61%    failed      0.00%
+ 458  PP601186_23MPX1793V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|bg|2023-12-16           4.11%    passed     97.94%
+ 459  PP601187_23MPX1806V|Homo_sapiens|DRC|Kinshasa|Kintambo|bg|2023-12-22              3.81%    passed     99.37%
+ 460  PP601188_24MPX0008V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|bg|2023-12-16           3.62%    passed     99.41%
+ 461  PP601189_24MPX0009C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-18                3.33%    passed     94.01%
+ 462  PP601190_24MPX0012C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-23                3.33%    passed     93.12%
+ 463  PP601191_24MPX0014C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-24               15.46%    failed      0.00%
+ 464  PP601192_24MPX0018V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2024-01-02                  5.57%    passed     79.75%
+ 465  PP601193_24MPX0024C|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-27                  3.32%    passed     92.27%
+ 466  PP601194_24MPX0025V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-30                 21.91%    failed      2.89%
+ 467  PP601195_24MPX0026V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-30                  3.55%    passed     99.04%
+ 468  PP601196_24MPX0037V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-05               25.80%    failed      0.00%
+ 469  PP601197_24MPX0038V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-07                3.32%    passed     92.61%
+ 470  PP601198_24MPX0041V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-08                3.34%    passed     94.86%
+ 471  PP601199_24MPX0164V|Homo_sapiens|DRC|Tshopo|Basoko|bg|2024-01-13                  3.32%    passed     92.17%
+ 472  PP601200_24MPX0166C|Homo_sapiens|DRC|Tshopo|Basoko|bg|2024-01-13                  3.33%    passed     92.93%
+ 473  PP601201_24MPX0168V|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08                 18.38%    passed     98.58%
+ 474  PP601202_24MPX0169C|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08                  3.60%    passed     98.36%
+ 475  PP601203_24MPX0174C|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08                  7.58%    failed      1.81%
+ 476  PP601204_24MPX0175V|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08                 10.65%    passed     68.37%
+ 477  PP601205_24MPX0188V|Homo_sapiens|DRC|Equateur|Lotumbe|bg|2024-01-20               4.74%    passed     95.16%
+ 478  PP601206_24MPX0194V|Homo_sapiens|DRC|Equateur|Wangata|bg|2024-01-20               3.32%    passed     93.06%
+ 479  PP601207_24MPX0198V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23              4.15%    passed     92.47%
+ 480  PP601208_24MPX0201V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23              4.89%    passed     79.86%
+ 481  PP601209_24MPX0203V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23             15.17%    passed      5.18%
+ 482  PP601210_24MPX0205V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-28              7.41%    passed     76.63%
+ 483  PP601211_24MPX0206V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23             19.74%    failed      0.00%
+ 484  PP601212_24MPX0207Or|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23             6.60%    passed     69.20%
+ 485  PP601213_24MPX0209V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-19              3.95%    passed     83.31%
+ 486  PP601214_24MPX0214V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23             20.41%    failed      4.30%
+ 487  PP601215_24MPX0217V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23             14.44%    passed     86.32%
+ 488  PP601216_24MPX0220V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-26              3.94%    passed     83.00%
+ 489  PP601217_24MPX0221V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-26             10.69%    passed     87.74%
+ 490  PP601218_24MPX0223C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-26              3.94%    passed     83.54%
+ 491  PP601219_24MPX0224C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-25              3.94%    passed     83.54%
+ 492  PP601220_24MPX0226V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-26              4.00%    passed     87.47%
+ 493  PP601221_24MPX0228V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-27              5.48%    passed     95.37%
+ 494  PP601222_24MPX0230C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-31              3.94%    passed     83.27%
+ 495  PP601223_24MPX0231V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-21              3.94%    passed     83.47%
+ 496  PP601224_24MPX0239V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-10              3.94%    passed     83.20%
+ 497  PP601225_24MPX0240V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-14              3.94%    passed     83.43%
+ 498  PP601226_24MPX0242V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-15             10.92%    failed      0.02%
+ 499  PP601227_RDC-NKV-GOM-MPOX-004|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-10-05   14.26%    failed      0.04%
+ 500  PP601228_RDC-NKV-GOM-MPOX-010|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-10-13    4.15%    passed     87.83%
+ 501  RDC-NKV-GOM-MPOX043C|Homo_sapiens|Sud-Kivu|Kamituga|2023-10-23                   26.83%    passed     24.13%
+ 502  RDC-NKV-GOM-MPOX045C|Homo_sapiens|Sud-Kivu|Kamituga|2023-10-28                   10.95%    passed     95.26%
+ 503  RDC-NKV-GOM-MPOX051C|Homo_sapiens|Sud-Kivu||2023-10-31                           26.56%    passed     16.93%
+ 504  RDC-NKV-GOM-MPOX063C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-03                   25.35%    passed     14.88%
+ 505  RDC-NKV-GOM-MPOX064Or|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-03                  25.61%    passed     29.89%
+ 506  RDC-NKV-GOM-MPOX095C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-13                    8.56%    passed     85.27%
+ 507  RDC-NKV-GOM-MPOX096Or|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-13                  25.93%    passed     32.54%
+ 508  RDC-NKV-GOM-MPOX098C|Homo_sapiens|Sud-Kivu|Kadutu|2023-11-11                      8.67%    passed     87.58%
+ 509  RDC-NKV-GOM-MPOX099Or|Homo_sapiens|Sud-Kivu|Kadutu|2023-11-11                    28.51%    passed     60.03%
+ 510  RDC-NKV-GOM-MPOX103C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-10                   27.33%    passed     48.52%
+ 511  RDC-NKV-GOM-MPOX109C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-10                    9.78%    passed     81.17%
+ 512  RDC-NKV-GOM-MPOX112C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-14                   12.18%    passed     92.02%
+ 513  RDC-NKV-GOM-MPOX142C|Homo_sapiens|Sud-Kivu|Kamituga|2023-12-02                    8.45%    passed     84.40%
+ 514  RDC-NKV-GOM-MPOX156C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                   24.98%    passed     29.73%
+ 515  RDC-NKV-GOM-MPOX157Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                  10.89%    passed     90.16%
+ 516  RDC-NKV-GOM-MPOX160Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                   7.67%    passed     81.54%
+ 517  RDC-NKV-GOM-MPOX164C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                    7.58%    passed     78.71%
+ 518  RDC-NKV-GOM-MPOX167C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                   13.58%    passed     66.88%
+ 519  RDC-NKV-GOM-MPOX169C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                    7.74%    passed     74.28%
+ 520  RDC-NKV-GOM-MPOX172C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                   24.20%    passed     33.45%
+ 521  RDC-NKV-GOM-MPOX175C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                   29.58%    passed     95.68%
+ 522  RDC-NKV-GOM-MPOX180C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                   10.12%    passed     88.39%
+ 523  RDC-NKV-GOM-MPOX183C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                    8.84%    passed     82.46%
+ 524  RDC-NKV-GOM-MPOX187Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                   8.70%    passed     79.51%
+ 525  RDC-NKV-GOM-MPOX193Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                  10.03%    passed     79.39%
+ 526  RDC-NKV-GOM-MPOX195C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                    8.53%    passed     74.39%
+ 527  RDC-NKV-GOM-MPOX196Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                  27.39%    passed     62.40%
+ 528  RDC-NKV-GOM-MPOX204C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                   27.52%    passed     45.47%
+ 529  RDC-NKV-GOM-MPOX209C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03                    9.84%    passed     87.00%
+ 530  RDC-NKV-GOM-MPOX215C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-02                   29.18%    passed     81.35%
+****  TOTAL                                                                             8.23%  38 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 5.185 seconds
+
+NOTE: 1752 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -284180.330
+2. Current log-likelihood: -283610.111
+3. Current log-likelihood: -283535.979
+4. Current log-likelihood: -283450.632
+5. Current log-likelihood: -283352.243
+6. Current log-likelihood: -283154.298
+Optimal log-likelihood: -283154.226
+Rate parameters:  A-C: 1.00000  A-G: 5.43171  A-T: 1.00000  C-G: 1.00000  C-T: 5.43171  G-T: 1.00000
+Base frequencies:  A: 0.335  C: 0.165  G: 0.165  T: 0.334
+Parameters optimization took 6 rounds (429.119 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 56.1152 secs using 96.7% CPU
+Computing ML distances took 58.026192 sec (of wall-clock time) 55.484375 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0057463 secs
+Computing RapidNJ tree took 0.019284 sec (of wall-clock time) 0.015625 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -284193.533
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 89.281 second
+Computing log-likelihood of 98 initial trees ... 1578.601 seconds
+Current best score: -283112.621
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -283104.672
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -283095.327
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -283086.191
+Iteration 10 / LogL: -283113.527 / Time: 1h:5m:22s
+Iteration 20 / LogL: -283125.469 / Time: 1h:30m:37s
+Finish initializing candidate tree set (20)
+Current best tree score: -283086.191 / CPU time: 4837.069
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -283188.962 / Time: 2h:0m:7s (5h:2m:10s left)
+Iteration 40 / LogL: -283275.828 / Time: 2h:26m:57s (3h:57m:15s left)
+Iteration 50 / LogL: -283162.848 / Time: 2h:56m:3s (3h:10m:20s left)
+Iteration 60 / LogL: -283164.175 / Time: 3h:23m:32s (2h:28m:16s left)
+Iteration 70 / LogL: -283205.941 / Time: 3h:52m:33s (1h:51m:10s left)
+Iteration 80 / LogL: -283126.315 / Time: 4h:21m:27s (1h:16m:5s left)
+Iteration 90 / LogL: -283202.582 / Time: 4h:50m:27s (0h:42m:24s left)
+Iteration 100 / LogL: -283254.375 / Time: 5h:17m:52s (0h:9m:37s left)
+TREE SEARCH COMPLETED AFTER 104 ITERATIONS / Time: 5h:29m:23s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -283086.191
+Optimal log-likelihood: -283086.191
+Rate parameters:  A-C: 1.00000  A-G: 5.48715  A-T: 1.00000  C-G: 1.00000  C-T: 5.48715  G-T: 1.00000
+Base frequencies:  A: 0.335  C: 0.165  G: 0.165  T: 0.334
+Parameters optimization took 1 rounds (13.012 sec)
+BEST SCORE FOUND : -283086.191
+Ancestral state probabilities printed to /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta.state
+Collapsing near-zero internal branches... 255 collapsed
+Total tree length: 0.016
+
+Total number of iterations: 104
+CPU time used for tree search: 19027.328 sec (5h:17m:7s)
+Wall-clock time used for tree search: 19163.702 sec (5h:19m:23s)
+Total CPU time used: 19588.625 sec (5h:26m:28s)
+Total wall-clock time used: 20799.423 sec (5h:46m:39s)
+
+Analysis results written to: 
+  IQ-TREE report:                /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta.iqtree
+  Maximum-likelihood tree:       /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta.treefile
+  Likelihood distances:          /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta.mldist
+  Ancestral state:               /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta.state
+  Screen log file:               /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta.log
+
+Date and Time: Fri Sep 20 02:49:40 2024
