@@ -1,0 +1,1161 @@
+IQ-TREE 2.3.0 COVID-edition built Mar 14 2024
+
+Input file name: /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta
+Type of analysis: tree reconstruction
+Random seed number: 841701
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 530 sequences with 196858 nucleotide sites
+Number of constant sites: 194332 (= 98.7168% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 194332 (= 98.7168% of all sites)
+Number of parsimony informative sites: 1625
+Number of distinct site patterns: 101982
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 5.4871
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 5.4871
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3352
+  pi(C) = 0.1653
+  pi(G) = 0.1655
+  pi(T) = 0.334
+
+Rate matrix Q:
+
+  A   -0.8207   0.09643    0.5295    0.1948
+  C    0.1955    -1.361   0.09649     1.069
+  G     1.073   0.09643    -1.364    0.1948
+  T    0.1955    0.5291   0.09649   -0.8211
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -283086.1910 (s.e. 809.4875)
+Unconstrained log-likelihood (without tree): -2122786.8463
+Number of free parameters (#branches + #model parameters): 1061
+Akaike information criterion (AIC) score: 568294.3820
+Corrected Akaike information criterion (AICc) score: 568305.8917
+Bayesian information criterion (BIC) score: 579106.2244
+
+Total tree length (sum of branch lengths): 0.0156
+Sum of internal branch lengths: 0.0081 (51.5931% of tree length)
+
+WARNING: 12 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KJ642615' is drawn at root
+
+                                                                +--18MPX0083S|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2018-01-11
+                                                             +--| (Node9)
+                                                             |  |     +**21MPX0197C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2021-06-15
+                                                             |  |  +--| (Node11)
+                                                             |  |  |  +**21MPX0198C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2021-06-16
+                                                             |  +--| (Node10)
+                                                             |     +--22MPX0486C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2022-09-03
+                                                          +--| (Node8)
+                                                          |  |     +--18MPX0175C|Homo_sapiens|DRC|Bas-Uele|Titule|cz|2018-02-12
+                                                          |  |  +--| (Node14)
+                                                          |  |  |  +--22MPX0139V|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2022-06-07
+                                                          |  |  |  |
+                                                          |  |  |  |  +**23MPX0468C|Homo_sapiens|DRC|Haut-Uele|Pawa|cz|2023-03-30
+                                                          |  |  |  +--| (Node16)
+                                                          |  |  |     +--23MPX0469C|Homo_sapiens|DRC|Haut-Uele|Pawa|cz|2023-03-30
+                                                          |  +--| (Node13)
+                                                          |  |  |  +**23MPX0070V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-10
+                                                          |  |  +--| (Node17)
+                                                          |  |     +--23MPX0126V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-23
+                                                          |  |     |
+                                                          |  |     +**23MPX0147V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-01
+                                                          |  |     |
+                                                          |  |     +**23MPX0148V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-01
+                                                          |  |     |
+                                                          |  |     +**23MPX0185V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-26
+                                                          |  |     |
+                                                          |  |     +**23MPX0186V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-07
+                                                          |  |     |
+                                                          |  |     +**23MPX0198V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-28
+                                                          |  |
+                                                          |  |     +--23MPX0011C|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23
+                                                          |  |  +--| (Node24)
+                                                          |  |  |  |     +--23MPX0072C|Homo_sapiens|DRC|Tshopo|Tshopo|cz|2023-01-13
+                                                          |  |  |  |  +--| (Node28)
+                                                          |  |  |  |  |  +--23MPX0462V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-13
+                                                          |  |  |  +--| (Node26)
+                                                          |  |  |  |  |     +**23MPX0075V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29
+                                                          |  |  |  |  |  +--| (Node33)
+                                                          |  |  |  |  |  |  +**23MPX0076V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29
+                                                          |  |  |  |  |  |  |
+                                                          |  |  |  |  |  |  +--23MPX0079V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29
+                                                          |  |  |  |  |  |  |
+                                                          |  |  |  |  |  |  +**23MPX0081C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-31
+                                                          |  |  |  |  |  |  |
+                                                          |  |  |  |  |  |  +**23MPX0082V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-31
+                                                          |  |  |  |  |  |  |
+                                                          |  |  |  |  |  |  +**23MPX0125V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-01
+                                                          |  |  |  |  |  |  |
+                                                          |  |  |  |  |  |  +**23MPX0199V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-15
+                                                          |  |  |  |  +--| (Node32)
+                                                          |  |  |  |  |  |  +**23MPX1398V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-09-08
+                                                          |  |  |  |  |  +--| (Node39)
+                                                          |  |  |  |  |     +**23MPX1636C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-21
+                                                          |  |  |  |  |
+                                                          |  |  |  |  |  +**23MPX0130C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-01-24
+                                                          |  |  |  |  +--| (Node29)
+                                                          |  |  |  |     |  +**23MPX0365V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05
+                                                          |  |  |  |     +--| (Node31)
+                                                          |  |  |  |     |  +**23MPX0366C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05
+                                                          |  |  |  |     |
+                                                          |  |  |  |     +**23MPX0463C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-13
+                                                          |  |  |  |
+                                                          |  |  |  |  +--23MPX0367C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05
+                                                          |  |  |  +--| (Node40)
+                                                          |  |  |     +--23MPX1506V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-10-05
+                                                          |  |  |     |
+                                                          |  |  |     +--24MPX0581V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-05
+                                                          |  +--| (Node23)
+                                                          |     +--MT724771|Funisciurus_bayonii|DRC|Tshopo||bg|2014-01-01
+                                                       +--| (Node7)
+                                                       |  |                    +--18MPX0115C|Homo_sapiens|DRC|Tshopo|Opala|cz|2018-02-22
+                                                       |  |                 +--| (Node48)
+                                                       |  |                 |  +--23MPX1300V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-08-12
+                                                       |  |              +--| (Node47)
+                                                       |  |              |  |  +--23MPX0357V|Homo_sapiens|DRC|Tshopo|Ubundu|cz|2023-03-29
+                                                       |  |              |  +--| (Node49)
+                                                       |  |              |     +--23MPX1053V|Homo_sapiens|DRC|Tshopo|Kabondo|cz|2023-07-23
+                                                       |  |           +--| (Node46)
+                                                       |  |           |  |  +--23MPX0354V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-03-21
+                                                       |  |           |  +--| (Node50)
+                                                       |  |           |     +--23MPX1643C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27
+                                                       |  |           |     |
+                                                       |  |           |     +--24MPX0580C|Homo_sapiens|Tshopo|Yaleko|cz|2024-02-14
+                                                       |  |        +--| (Node45)
+                                                       |  |        |  +--23MPX1157C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-07-17
+                                                       |  |     +--| (Node44)
+                                                       |  |     |  +--KP849471|Funisciurus_anerythrus|DRC|Mongala|Yambuku|bg|1985-07-XX
+                                                       |  |  +--| (Node43)
+                                                       |  |  |  |     +--23MPX0022V|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-07-30
+                                                       |  |  |  |  +--| (Node53)
+                                                       |  |  |  |  |  |     +**JX878409|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-09
+                                                       |  |  |  |  |  |  +--| (Node55)
+                                                       |  |  |  |  |  |  |  +**JX878411|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-30
+                                                       |  |  |  |  |  +--| (Node54)
+                                                       |  |  |  |  |     +--JX878412|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-30
+                                                       |  |  |  +--| (Node52)
+                                                       |  |  |     +**JX878410|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-24
+                                                       |  |  |     |
+                                                       |  |  |     |     +**JX878413|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-14
+                                                       |  |  |     |  +--| (Node58)
+                                                       |  |  |     |  |  +**JX878414|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-14
+                                                       |  |  |     |  |  |
+                                                       |  |  |     |  |  +**JX878415|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-26
+                                                       |  |  |     |  |  |
+                                                       |  |  |     |  |  +--JX878416|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-26
+                                                       |  |  |     |  |  |
+                                                       |  |  |     |  |  +--JX878421|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-03-22
+                                                       |  |  |     |  |  |
+                                                       |  |  |     |  |  +**JX878427|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-05-25
+                                                       |  |  |     |  |  |
+                                                       |  |  |     |  |  +--JX878428|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-06-30
+                                                       |  |  |     +--| (Node57)
+                                                       |  |  |        +--JX878422|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-03-20
+                                                       |  +--| (Node42)
+                                                       |     |                                   +--18MPX0116C|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2018-02-15
+                                                       |     |                                +--| (Node79)
+                                                       |     |                                |  |     +**22MPX0515C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-03
+                                                       |     |                                |  |  +--| (Node81)
+                                                       |     |                                |  |  |  +**22MPX0515V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-03
+                                                       |     |                                |  +--| (Node80)
+                                                       |     |                                |     |  +**23MPX1303C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-08
+                                                       |     |                                |     +--| (Node83)
+                                                       |     |                                |     |  +**23MPX1393C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-09
+                                                       |     |                                |     |  |
+                                                       |     |                                |     |  +**23MPX1396V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-09
+                                                       |     |                                |     |
+                                                       |     |                                |     |  +**24MPX0571V|Homo_sapiens|Tshopo|Basoko|cz|2024-02-10
+                                                       |     |                                |     +--| (Node85)
+                                                       |     |                                |        +**24MPX0572C|Homo_sapiens|Tshopo|Basoko|cz|2024-02-27
+                                                       |     |                                |        |
+                                                       |     |                                |        +**24MPX0574C|Homo_sapiens|Tshopo|Basoko|cz|2024-02-27
+                                                       |     |                             +--| (Node78)
+                                                       |     |                             |  |  +--18MPX0174C|Homo_sapiens|DRC|Bas-Uele|Titule|cz|2018-04-24
+                                                       |     |                             |  +--| (Node87)
+                                                       |     |                             |     |        +**22MPX0156C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2022-06-22
+                                                       |     |                             |     |     +--| (Node112)
+                                                       |     |                             |     |     |  +**22MPX0156V|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2022-06-22
+                                                       |     |                             |     |     |  |
+                                                       |     |                             |     |     |  +**22MPX0296C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-28
+                                                       |     |                             |     |  +--| (Node111)
+                                                       |     |                             |     |  |  |     +**22MPX0610C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31
+                                                       |     |                             |     |  |  |  +--| (Node115)
+                                                       |     |                             |     |  |  |  |  +**22MPX0610V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31
+                                                       |     |                             |     |  |  |  |  |
+                                                       |     |                             |     |  |  |  |  +--22MPX0611V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31
+                                                       |     |                             |     |  |  +--| (Node114)
+                                                       |     |                             |     |  |     |     +**23MPX0044C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30
+                                                       |     |                             |     |  |     |  +--| (Node118)
+                                                       |     |                             |     |  |     |  |  +**23MPX0046C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30
+                                                       |     |                             |     |  |     +--| (Node117)
+                                                       |     |                             |     |  |        +**23MPX0045V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30
+                                                       |     |                             |     +--| (Node109)
+                                                       |     |                             |     |  |  +**23MPX0380C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2023-04-05
+                                                       |     |                             |     |  +--| (Node119)
+                                                       |     |                             |     |  |  +**23MPX0381C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2023-04-05
+                                                       |     |                             |     |  |
+                                                       |     |                             |     |  +--23MPX1185V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-07-16
+                                                       |     |                             |     |
+                                                       |     |                             |     |     +**22MPX0290C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31
+                                                       |     |                             |     |  +--| (Node92)
+                                                       |     |                             |     |  |  +**22MPX0291C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31
+                                                       |     |                             |     |  |  |
+                                                       |     |                             |     |  |  +**22MPX0292C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31
+                                                       |     |                             |     |  |  |
+                                                       |     |                             |     |  |  |  +**22MPX0402V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-13
+                                                       |     |                             |     |  |  +--| (Node97)
+                                                       |     |                             |     |  |  |  +**22MPX0405V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21
+                                                       |     |                             |     |  |  |  |
+                                                       |     |                             |     |  |  |  +**22MPX0406V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21
+                                                       |     |                             |     |  |  |  |
+                                                       |     |                             |     |  |  |  +**22MPX0407C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21
+                                                       |     |                             |     |  |  |  |
+                                                       |     |                             |     |  |  |  +**22MPX0409V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21
+                                                       |     |                             |     |  |  |  |
+                                                       |     |                             |     |  |  |  +**22MPX0410V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-15
+                                                       |     |                             |     |  |  |
+                                                       |     |                             |     |  |  +**22MPX0408C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-15
+                                                       |     |                             |     |  |  |
+                                                       |     |                             |     |  |  +**22MPX0412C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-22
+                                                       |     |                             |     +--| (Node91)
+                                                       |     |                             |     |  |  +--23MPX1107C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-11
+                                                       |     |                             |     |  +--| (Node102)
+                                                       |     |                             |     |     +**23MPX1108C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-15
+                                                       |     |                             |     |     |
+                                                       |     |                             |     |     +**23MPX1109C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-11
+                                                       |     |                             |     |     |
+                                                       |     |                             |     |     +**23MPX1115C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-30
+                                                       |     |                             |     |     |
+                                                       |     |                             |     |     +--23MPX1273C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-08-20
+                                                       |     |                             |     |     |
+                                                       |     |                             |     |     +**23MPX1275C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-17
+                                                       |     |                             |     |
+                                                       |     |                             |     |  +**23MPX0214C|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28
+                                                       |     |                             |     +--| (Node107)
+                                                       |     |                             |     |  +**23MPX0215V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28
+                                                       |     |                             |     |  |
+                                                       |     |                             |     |  +**23MPX0216V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28
+                                                       |     |                             |     |
+                                                       |     |                             |     +--23MPX1085C|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-07-30
+                                                       |     |                          +--| (Node77)
+                                                       |     |                          |  |        +**22MPX0172V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-06-27
+                                                       |     |                          |  |     +--| (Node124)
+                                                       |     |                          |  |     |  +**22MPX0173V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-06-27
+                                                       |     |                          |  |     |  |
+                                                       |     |                          |  |     |  +**22MPX0280C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-07-27
+                                                       |     |                          |  |     |  |
+                                                       |     |                          |  |     |  +--OQ729808|Homo_sapiens|DRC|||bg|2022-XX-XX
+                                                       |     |                          |  |  +--| (Node123)
+                                                       |     |                          |  |  |  +--23MPX1302C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-09-05
+                                                       |     |                          |  +--| (Node120)
+                                                       |     |                          |     |  +**22MPX0511C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-17
+                                                       |     |                          |     +--| (Node162)
+                                                       |     |                          |     |  +**22MPX0512V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-09-16
+                                                       |     |                          |     |
+                                                       |     |                          |     |  +**22MPX0613V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08
+                                                       |     |                          |     +--| (Node139)
+                                                       |     |                          |     |  +--22MPX0614V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  |     +**23MPX0036C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-28
+                                                       |     |                          |     |  |  +**| (Node157)
+                                                       |     |                          |     |  |  |  |  +**23MPX0038C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-28
+                                                       |     |                          |     |  |  |  +--| (Node159)
+                                                       |     |                          |     |  |  |  |  |  +**23MPX0074C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-24
+                                                       |     |                          |     |  |  |  |  +**| (Node161)
+                                                       |     |                          |     |  |  |  |  |  +**23MPX0077C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-10
+                                                       |     |                          |     |  |  |  |  |
+                                                       |     |                          |     |  |  |  |  +**24MPX0576V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14
+                                                       |     |                          |     |  |  |  |
+                                                       |     |                          |     |  |  |  +**23MPX0084C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-28
+                                                       |     |                          |     |  +--| (Node154)
+                                                       |     |                          |     |  |  +**23MPX0037C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-27
+                                                       |     |                          |     |  |  |
+                                                       |     |                          |     |  |  +**23MPX0073C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-11-23
+                                                       |     |                          |     |  |  |
+                                                       |     |                          |     |  |  +--23MPX0078C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-15
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  +**23MPX0039C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-16
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  +**23MPX0040C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-16
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  +**23MPX0085C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-02
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  +**23MPX0087C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-20
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  +**23MPX0088C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-02
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  +**23MPX0197V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-07
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  |  +**24MPX0575V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14
+                                                       |     |                          |     |  +--| (Node145)
+                                                       |     |                          |     |     +**24MPX0577V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14
+                                                       |     |                          |     |     |
+                                                       |     |                          |     |     +**24MPX0578V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14
+                                                       |     |                          |     |     |
+                                                       |     |                          |     |     +**24MPX0579C|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14
+                                                       |     |                          |     |     |
+                                                       |     |                          |     |     +**24MPX0582V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14
+                                                       |     |                          |     |     |
+                                                       |     |                          |     |     +**PP601203_24MPX0174C|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08
+                                                       |     |                          |     |     |
+                                                       |     |                          |     |     +**PP601204_24MPX0175V|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08
+                                                       |     |                          |     |
+                                                       |     |                          |     |        +**23MPX0047C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07
+                                                       |     |                          |     |     +--| (Node129)
+                                                       |     |                          |     |     |  +**23MPX0049C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07
+                                                       |     |                          |     |     |  |
+                                                       |     |                          |     |     |  +**23MPX0062C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07
+                                                       |     |                          |     |  +--| (Node128)
+                                                       |     |                          |     |  |  |  +**PP601192_24MPX0018V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2024-01-02
+                                                       |     |                          |     |  |  +--| (Node131)
+                                                       |     |                          |     |  |     +**PP601193_24MPX0024C|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-27
+                                                       |     |                          |     |  |     |
+                                                       |     |                          |     |  |     +--PP601194_24MPX0025V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-30
+                                                       |     |                          |     |  |     |
+                                                       |     |                          |     |  |     +**PP601195_24MPX0026V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-30
+                                                       |     |                          |     +--| (Node127)
+                                                       |     |                          |     |  |  +**23MPX0060C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07
+                                                       |     |                          |     |  +--| (Node135)
+                                                       |     |                          |     |  |  +**23MPX0061C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06
+                                                       |     |                          |     |  |
+                                                       |     |                          |     |  |  +**23MPX0508V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-26
+                                                       |     |                          |     |  +--| (Node136)
+                                                       |     |                          |     |     +**23MPX0509V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-27
+                                                       |     |                          |     |     |
+                                                       |     |                          |     |     +**23MPX0510V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-27
+                                                       |     |                          |     |
+                                                       |     |                          |     +--23MPX0184C|Homo_sapiens|DRC|Tshopo|Basali|cz|2023-02-08
+                                                       |     |                       +--| (Node74)
+                                                       |     |                       |  |              +**22MPX0288C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-08-08
+                                                       |     |                       |  |           +--| (Node167)
+                                                       |     |                       |  |           |  +--22MPX0513C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-09-19
+                                                       |     |                       |  |        +--| (Node166)
+                                                       |     |                       |  |        |  |  +**23MPX1462C|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-23
+                                                       |     |                       |  |        |  +--| (Node168)
+                                                       |     |                       |  |        |     +--23MPX1463V|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-25
+                                                       |     |                       |  |        |     |
+                                                       |     |                       |  |        |     +--23MPX1464V|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-28
+                                                       |     |                       |  |     +--| (Node165)
+                                                       |     |                       |  |     |  |     +**22MPX0548V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-26
+                                                       |     |                       |  |     |  |  +--| (Node171)
+                                                       |     |                       |  |     |  |  |  +**22MPX0549V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-26
+                                                       |     |                       |  |     |  |  |  |
+                                                       |     |                       |  |     |  |  |  +**22MPX0612V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08
+                                                       |     |                       |  |     |  |  |  |
+                                                       |     |                       |  |     |  |  |  +**22MPX0615V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08
+                                                       |     |                       |  |     |  +--| (Node170)
+                                                       |     |                       |  |     |     |  +**23MPX0187C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-02
+                                                       |     |                       |  |     |     +--| (Node175)
+                                                       |     |                       |  |     |     |  +**23MPX0196V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-12
+                                                       |     |                       |  |     |     |
+                                                       |     |                       |  |     |     |  +**23MPX0644V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-08
+                                                       |     |                       |  |     |     +--| (Node176)
+                                                       |     |                       |  |     |        +**23MPX0645V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-08
+                                                       |     |                       |  |     |        |
+                                                       |     |                       |  |     |        +**23MPX0646V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-07
+                                                       |     |                       |  |     |        |
+                                                       |     |                       |  |     |        +**23MPX0647V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15
+                                                       |     |                       |  |     |        |
+                                                       |     |                       |  |     |        +**23MPX0648V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15
+                                                       |     |                       |  |  +--| (Node164)
+                                                       |     |                       |  |  |  |     +**23MPX1644C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27
+                                                       |     |                       |  |  |  |  +--| (Node182)
+                                                       |     |                       |  |  |  |  |  +**23MPX1645V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27
+                                                       |     |                       |  |  |  |  |  |
+                                                       |     |                       |  |  |  |  |  +**23MPX1646V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27
+                                                       |     |                       |  |  |  |  |  |
+                                                       |     |                       |  |  |  |  |  +**23MPX1648V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27
+                                                       |     |                       |  |  |  |  |  |
+                                                       |     |                       |  |  |  |  |  +**PP601201_24MPX0168V|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08
+                                                       |     |                       |  |  |  |  |  |
+                                                       |     |                       |  |  |  |  |  +--PP601202_24MPX0169C|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08
+                                                       |     |                       |  |  |  +--| (Node180)
+                                                       |     |                       |  |  |     +--PP601199_24MPX0164V|Homo_sapiens|DRC|Tshopo|Basoko|bg|2024-01-13
+                                                       |     |                       |  |  |     |
+                                                       |     |                       |  |  |     +**PP601200_24MPX0166C|Homo_sapiens|DRC|Tshopo|Basoko|bg|2024-01-13
+                                                       |     |                       |  +--| (Node163)
+                                                       |     |                       |  |  |  +--23MPX0355V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-02-22
+                                                       |     |                       |  |  +--| (Node187)
+                                                       |     |                       |  |     +--23MPX0356V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-02-25
+                                                       |     |                       |  |     |
+                                                       |     |                       |  |     +**23MPX1674C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-21
+                                                       |     |                       |  |     |
+                                                       |     |                       |  |     +**23MPX1675S|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-27
+                                                       |     |                       |  |     |
+                                                       |     |                       |  |     +**23MPX1676C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-27
+                                                       |     |                       |  |     |
+                                                       |     |                       |  |     +**23MPX1677C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-21
+                                                       |     |                       |  |
+                                                       |     |                       |  |     +**22MPX0452V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2022-09-23
+                                                       |     |                       |  |  +--| (Node194)
+                                                       |     |                       |  |  |  |  +**23MPX0377V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05
+                                                       |     |                       |  |  |  +--| (Node195)
+                                                       |     |                       |  |  |     +**23MPX0378V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05
+                                                       |     |                       |  |  |     |
+                                                       |     |                       |  |  |     +**23MPX0379V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05
+                                                       |     |                       |  +--| (Node193)
+                                                       |     |                       |  |  |  +**23MPX0043C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-05
+                                                       |     |                       |  |  +--| (Node197)
+                                                       |     |                       |  |     +**23MPX0048C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-05
+                                                       |     |                       |  |     |
+                                                       |     |                       |  |     +**23MPX0057C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06
+                                                       |     |                       |  |     |
+                                                       |     |                       |  |     +**23MPX0059C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06
+                                                       |     |                       |  |
+                                                       |     |                       |  |        +**23MPX0135V|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24
+                                                       |     |                       |  |     +--| (Node205)
+                                                       |     |                       |  |     |  +**23MPX0136V|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24
+                                                       |     |                       |  |  +--| (Node204)
+                                                       |     |                       |  |  |  |  +**23MPX0751V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07
+                                                       |     |                       |  |  |  +--| (Node207)
+                                                       |     |                       |  |  |  |  +**23MPX0755V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07
+                                                       |     |                       |  |  |  |
+                                                       |     |                       |  |  |  +--24MPX0593C|Homo_sapiens|Sud-Ubangi|Bangabola|cz|2024-02-25
+                                                       |     |                       |  +--| (Node200)
+                                                       |     |                       |  |  |  +--23MPX0756V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07
+                                                       |     |                       |  |  +--| (Node210)
+                                                       |     |                       |  |  |  +**23MPX0757V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-03
+                                                       |     |                       |  |  |  |
+                                                       |     |                       |  |  |  +**23MPX0758V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-02
+                                                       |     |                       |  |  |  |
+                                                       |     |                       |  |  |  |  +**23MPX1539V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-02
+                                                       |     |                       |  |  |  +--| (Node215)
+                                                       |     |                       |  |  |  |  +**23MPX1540V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-07
+                                                       |     |                       |  |  |  |  |
+                                                       |     |                       |  |  |  |  +**23MPX1541V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-08
+                                                       |     |                       |  |  |  |  |
+                                                       |     |                       |  |  |  |  +--PP601184_23MPX1769C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|bg|2023-11-25
+                                                       |     |                       |  |  |  |
+                                                       |     |                       |  |  |  +--24MPX0595V|Homo_sapiens|Sud-Ubangi|Ndage|cz|2024-02-24
+                                                       |     |                       |  |  |  |
+                                                       |     |                       |  |  |  +--PP601186_23MPX1793V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|bg|2023-12-16
+                                                       |     |                       |  |  |
+                                                       |     |                       |  |  |     +**23MPX0759V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-04
+                                                       |     |                       |  |  |  +--| (Node219)
+                                                       |     |                       |  |  |  |  |        +**23MPX0896S|Homo_sapiens|DRC|Sud-Ubangi|Gemena|cz|2023-07-14
+                                                       |     |                       |  |  |  |  |     +--| (Node224)
+                                                       |     |                       |  |  |  |  |     |  +--PP601182_23MPX1740C|Homo_sapiens|DRC|Sud-Ubangi|Tandala|bg|2023-11-09
+                                                       |     |                       |  |  |  |  |     |  |
+                                                       |     |                       |  |  |  |  |     |  +--PP601185_23MPX1786C|Homo_sapiens|DRC|Sud-Ubangi|Tandala|bg|2023-12-18
+                                                       |     |                       |  |  |  |  |  +--| (Node222)
+                                                       |     |                       |  |  |  |  |  |  +**24MPX0323C|Homo_sapiens|Sud-Ubangi|Bogose-Nubea|cz|2024-01-30
+                                                       |     |                       |  |  |  |  |  |  |
+                                                       |     |                       |  |  |  |  |  |  +**PP601197_24MPX0038V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-07
+                                                       |     |                       |  |  |  |  +--| (Node220)
+                                                       |     |                       |  |  |  |     +**PP601191_24MPX0014C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-24
+                                                       |     |                       |  |  |  |     |
+                                                       |     |                       |  |  |  |     +--PP601198_24MPX0041V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-08
+                                                       |     |                       |  |  +--| (Node218)
+                                                       |     |                       |  |  |  +--23MPX1442C|Homo_sapiens|DRC|Sud-Ubangi|Boto|cz|2023-09-10
+                                                       |     |                       |  |  |
+                                                       |     |                       |  |  +--23MPX1137V|Homo_sapiens|DRC|Sud-Ubangi|Ndage|cz|2023-08-07
+                                                       |     |                       |  |  |
+                                                       |     |                       |  |  |     +--24MPX0486V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX
+                                                       |     |                       |  |  |  +**| (Node209)
+                                                       |     |                       |  |  |  |  +--24MPX0813V|Homo_sapiens|Equateur|Mbandaka|cz|2024-03-29
+                                                       |     |                       |  |  +--| (Node208)
+                                                       |     |                       |  |     +--24MPX0495V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX
+                                                       |     |                       |  |
+                                                       |     |                       |  +--MN702450|Homo_sapiens|CAR|Mbomou|Bakouma|bg|2016-01-01
+                                                       |     |                    +--| (Node73)
+                                                       |     |                    |  |  +**MN702447|Homo_sapiens|CAR|Mbomou|Rafai|bg|2018-03-20
+                                                       |     |                    |  +--| (Node226)
+                                                       |     |                    |     +--MN702448|Homo_sapiens|CAR|Ouaka|Ippy|bg|2018-03-07
+                                                       |     |                 +--| (Node72)
+                                                       |     |                 |  |        +**24MPX0kum|Homo_sapiens|DRC|Sud-Ubangi|Bulu|iv|2024-02-15
+                                                       |     |                 |  |     +--| (Node229)
+                                                       |     |                 |  |     |  +**24MPX0513V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2024-02-10
+                                                       |     |                 |  |  +--| (Node228)
+                                                       |     |                 |  |  |  +--PP601190_24MPX0012C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-23
+                                                       |     |                 |  +--| (Node227)
+                                                       |     |                 |     +--24MPX0817V|Homo_sapiens|Mongala|Bosondjo|cz|2024-02-04
+                                                       |     |              +--| (Node69)
+                                                       |     |              |  |        +--18MPX0135C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2018-03-23
+                                                       |     |              |  |     +--| (Node338)
+                                                       |     |              |  |     |  +--18MPX0145C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2018-03-23
+                                                       |     |              |  |     |  |
+                                                       |     |              |  |     |  |  +**23MPX0452V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |     |  +--| (Node342)
+                                                       |     |              |  |     |  |  +**23MPX0455V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |     |  |  |
+                                                       |     |              |  |     |  |  +**23MPX0457V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |     |  |  |
+                                                       |     |              |  |     |  |  +**23MPX0459V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |     |  |
+                                                       |     |              |  |     |  |  +--23MPX0460C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |     |  +--| (Node341)
+                                                       |     |              |  |     |     +**23MPX0461C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |  +--| (Node337)
+                                                       |     |              |  |  |  |  +**22MPX0222C|Homo_sapiens|DRC|Kasai|mushenge|cz|2022-07-8
+                                                       |     |              |  |  |  +--| (Node345)
+                                                       |     |              |  |  |     +**22MPX0223C|Homo_sapiens|DRC|Kasai|mushenge|cz|2022-07-8
+                                                       |     |              |  +--| (Node336)
+                                                       |     |              |  |  |        +**23MPX0002S|Homo_sapiens|DRC|Maniema|Obokote|cz|2022-10-11
+                                                       |     |              |  |  |     +--| (Node348)
+                                                       |     |              |  |  |     |  +**23MPX0014V|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23
+                                                       |     |              |  |  |     |  |
+                                                       |     |              |  |  |     |  +**23MPX0015V|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23
+                                                       |     |              |  |  |  +--| (Node347)
+                                                       |     |              |  |  |  |  |  +**23MPX0769V|Homo_sapiens|DRC|Sankuru|Ototi|cz|2023-06-28
+                                                       |     |              |  |  |  |  +--| (Node350)
+                                                       |     |              |  |  |  |     +**23MPX0770V|Homo_sapiens|DRC|Sankuru|Ototi|cz|2023-06-23
+                                                       |     |              |  |  +--| (Node346)
+                                                       |     |              |  |     |  +**23MPX0451C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |     +--| (Node352)
+                                                       |     |              |  |     |  +**23MPX0453V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |     |  |
+                                                       |     |              |  |     |  +**23MPX0454V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30
+                                                       |     |              |  |     |
+                                                       |     |              |  |     |  +--JX878407|Homo_sapiens|DRC|Sankuru|Kole|bg|2006-10-09
+                                                       |     |              |  |     +--| (Node354)
+                                                       |     |              |  |        |  +--JX878423|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-03-25
+                                                       |     |              |  |        +--| (Node356)
+                                                       |     |              |  |        |  +**JX878424|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-03-25
+                                                       |     |              |  |        |
+                                                       |     |              |  |        |  +**JX878425|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-04-20
+                                                       |     |              |  |        +--| (Node357)
+                                                       |     |              |  |           +**JX878429|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-09-04
+                                                       |     |              |  |
+                                                       |     |              |  |        +**20MPX0003S|Homo_sapiens|DRC|Maindombe|Kiri|cz|2020-01-07
+                                                       |     |              |  |     +--| (Node273)
+                                                       |     |              |  |     |  |  +**23MPX0028V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18
+                                                       |     |              |  |     |  +--| (Node276)
+                                                       |     |              |  |     |  |  +**23MPX0030V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-16
+                                                       |     |              |  |     |  |  |
+                                                       |     |              |  |     |  |  +**23MPX0033C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-16
+                                                       |     |              |  |     |  |  |
+                                                       |     |              |  |     |  |  +**23MPX0034C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18
+                                                       |     |              |  |     |  |  |
+                                                       |     |              |  |     |  |  +**23MPX0035C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18
+                                                       |     |              |  |     |  |
+                                                       |     |              |  |     |  +--23MPX0491C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22
+                                                       |     |              |  |     |  |
+                                                       |     |              |  |     |  +--24MPX0591C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-26
+                                                       |     |              |  |  +--| (Node270)
+                                                       |     |              |  |  |  |     +**22MPX0420C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09
+                                                       |     |              |  |  |  |  +--| (Node295)
+                                                       |     |              |  |  |  |  |  |  +**22MPX0421C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09
+                                                       |     |              |  |  |  |  |  +--| (Node298)
+                                                       |     |              |  |  |  |  |  |  +**22MPX0423C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  +**22MPX0424C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09
+                                                       |     |              |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  +**22MPX0422C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09
+                                                       |     |              |  |  |  |  |  +--| (Node300)
+                                                       |     |              |  |  |  |  |  |  |  +**22MPX0508C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01
+                                                       |     |              |  |  |  |  |  |  +--| (Node303)
+                                                       |     |              |  |  |  |  |  |  |  +**22MPX0508V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  |  +**23MPX0273C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-23
+                                                       |     |              |  |  |  |  |  |  +--| (Node309)
+                                                       |     |              |  |  |  |  |  |  |  +**23MPX0334C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-24
+                                                       |     |              |  |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  |  +--23MPX0490V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22
+                                                       |     |              |  |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  |  +--PP601205_24MPX0188V|Homo_sapiens|DRC|Equateur|Lotumbe|bg|2024-01-20
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  +--23MPX0291V|Homo_sapiens|DRC|Equateur|Ingende|cz|2023-03-23
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  +**23MPX0649V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  +**23MPX1040V|Homo_sapiens|DRC|Equateur|Wangata|cz|2023-07-27
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  +--23MPX1072C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-22
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  |  +--23MPX1443V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-03
+                                                       |     |              |  |  |  |  |  |  +--| (Node314)
+                                                       |     |              |  |  |  |  |  |  |  +--23MPX1627C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-08-06
+                                                       |     |              |  |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  |  +--PP601189_24MPX0009C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-18
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  |  +**23MPX1478C|Homo_sapiens|DRC|Kinshasa|Lemba|cz|2023-10-06
+                                                       |     |              |  |  |  |  |  |  +--| (Node316)
+                                                       |     |              |  |  |  |  |  |  |  +**23MPX1555V|Homo_sapiens|DRC|Kinshasa|Limete|cz|2023-10-26
+                                                       |     |              |  |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  |  +**PP601187_23MPX1806V|Homo_sapiens|DRC|Kinshasa|Kintambo|bg|2023-12-22
+                                                       |     |              |  |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  |  +**24MPX0594V|Homo_sapiens|Sud-Ubangi|Bokungu|cz|2024-02-10
+                                                       |     |              |  |  |  |  |  |  +--| (Node312)
+                                                       |     |              |  |  |  |  |  |     +--PP601183_23MPX1766C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|bg|2023-11-21
+                                                       |     |              |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  +--23MPX0288C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25
+                                                       |     |              |  |  |  |  |  +--| (Node318)
+                                                       |     |              |  |  |  |  |     |  +**23MPX0487V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-24
+                                                       |     |              |  |  |  |  |     +--| (Node320)
+                                                       |     |              |  |  |  |  |     |  +**23MPX0489V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22
+                                                       |     |              |  |  |  |  |     |
+                                                       |     |              |  |  |  |  |     +--24MPX0763V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-13
+                                                       |     |              |  |  |  +--| (Node294)
+                                                       |     |              |  |  |  |  |  +**22MPX0503C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30
+                                                       |     |              |  |  |  |  +--| (Node322)
+                                                       |     |              |  |  |  |  |  +**22MPX0504C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30
+                                                       |     |              |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  +--22MPX0505C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30
+                                                       |     |              |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  +--23MPX1037V|Homo_sapiens|DRC|Equateur|Lilanga|cz|2023-07-31
+                                                       |     |              |  |  |  |  |  |
+                                                       |     |              |  |  |  |  |  |  +--24MPX0760V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08
+                                                       |     |              |  |  |  |  |  +--| (Node326)
+                                                       |     |              |  |  |  |  |     +--24MPX0761V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08
+                                                       |     |              |  |  |  |  |     |
+                                                       |     |              |  |  |  |  |     +**24MPX0762V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08
+                                                       |     |              |  |  |  |  |     |
+                                                       |     |              |  |  |  |  |     +**24MPX0764V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-14
+                                                       |     |              |  |  |  |  |
+                                                       |     |              |  |  |  |  |  +**24MPX0514V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2024-02-10
+                                                       |     |              |  |  |  |  +--| (Node329)
+                                                       |     |              |  |  |  |     +--24MPX0541V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX
+                                                       |     |              |  |  |  |
+                                                       |     |              |  |  |  |  +**23MPX0368V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-03-25
+                                                       |     |              |  |  |  +--| (Node282)
+                                                       |     |              |  |  |  |  +**23MPX0373V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05
+                                                       |     |              |  |  |  |  |
+                                                       |     |              |  |  |  |  +**23MPX0374C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-03-27
+                                                       |     |              |  |  |  |  |
+                                                       |     |              |  |  |  |  +**23MPX0375C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05
+                                                       |     |              |  |  |  |  |
+                                                       |     |              |  |  |  |  +**23MPX0376V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05
+                                                       |     |              |  |  |  |
+                                                       |     |              |  |  |  |  +**23MPX0732V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-18
+                                                       |     |              |  |  |  +--| (Node287)
+                                                       |     |              |  |  |  |  +**23MPX0738V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17
+                                                       |     |              |  |  |  |
+                                                       |     |              |  |  |  |  +**23MPX0752V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-26
+                                                       |     |              |  |  |  +--| (Node293)
+                                                       |     |              |  |  |  |  +--24MPX0509V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX
+                                                       |     |              |  |  |  |
+                                                       |     |              |  |  |  |  +--23MPX1063V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31
+                                                       |     |              |  |  |  +--| (Node289)
+                                                       |     |              |  |  |  |  |  +**23MPX1661V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-11-04
+                                                       |     |              |  |  |  |  +--| (Node290)
+                                                       |     |              |  |  |  |     +**24MPX0303C|Homo_sapiens|Maindombe|Inongo|cz|2023-11-23
+                                                       |     |              |  |  |  |     |
+                                                       |     |              |  |  |  |     +--24MPX0305V|Homo_sapiens|Maindombe|Inongo|cz|2023-11-23
+                                                       |     |              |  |  |  |
+                                                       |     |              |  |  |  +--23MPX1447C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|cz|2023-09-12
+                                                       |     |              |  |  |  |
+                                                       |     |              |  |  |  +--24MPX0535C|Homo_sapiens|Sud-Ubangi|Kungu|cz|2024-02-07
+                                                       |     |              |  |  |  |
+                                                       |     |              |  |  |  +**24MPX0592C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-18
+                                                       |     |              |  +--| (Node268)
+                                                       |     |              |  |  +--23MPX0279S|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25
+                                                       |     |              |  |  |
+                                                       |     |              |  |  |     +**23MPX0338V|Homo_sapiens|DRC|Mongala|Bongandanga|cz|2023-03-10
+                                                       |     |              |  |  |  +--| (Node333)
+                                                       |     |              |  |  |  |  +--23MPX0642V|Homo_sapiens|DRC|Mongala|Bongandanga|cz|2023-06-13
+                                                       |     |              |  |  +--| (Node332)
+                                                       |     |              |  |  |  +--23MPX1446C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|cz|2023-08-14
+                                                       |     |              |  |  |
+                                                       |     |              |  |  +--23MPX1194C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-08-11
+                                                       |     |              |  |  |
+                                                       |     |              |  |  +--23MPX1686V|Homo_sapiens|DRC|Mongala|Bosondjo|cz|2023-11-01
+                                                       |     |              |  |  |
+                                                       |     |              |  |  +--24MPX0590C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-26
+                                                       |     |              |  |  |
+                                                       |     |              |  |  +--PP601206_24MPX0194V|Homo_sapiens|DRC|Equateur|Wangata|bg|2024-01-20
+                                                       |     |              |  |
+                                                       |     |              |  |     +--22MPX0129C|Homo_sapiens|DRC|Kwilu|Kikongo|cz|2022-05-31
+                                                       |     |              |  |  +--| (Node233)
+                                                       |     |              |  |  |  |  +**23MPX1511C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-10-06
+                                                       |     |              |  |  |  +--| (Node234)
+                                                       |     |              |  |  |     +**23MPX1512S|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-10-06
+                                                       |     |              |  |  |     |
+                                                       |     |              |  |  |     +**23MPX1709C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-11-14
+                                                       |     |              |  +--| (Node230)
+                                                       |     |              |     |  +--22MPX0314V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2022-08-11
+                                                       |     |              |     +--| (Node246)
+                                                       |     |              |     |  +--23MPX0134C|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24
+                                                       |     |              |     |  |
+                                                       |     |              |     |  |        +--23MPX0225V|Homo_sapiens|DRC|Equateur|Ingende|cz|2023-03-06
+                                                       |     |              |     |  |     +--| (Node251)
+                                                       |     |              |     |  |     |  |  +**23MPX0340C|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-03-29
+                                                       |     |              |     |  |     |  +--| (Node252)
+                                                       |     |              |     |  |     |     +**23MPX0341C|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-03-29
+                                                       |     |              |     |  |  +--| (Node250)
+                                                       |     |              |     |  |  |  |  +**23MPX0485V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22
+                                                       |     |              |     |  |  |  +--| (Node255)
+                                                       |     |              |     |  |  |  |  +**23MPX0486V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22
+                                                       |     |              |     |  |  |  |
+                                                       |     |              |     |  |  |  |  +**23MPX1658V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-10-20
+                                                       |     |              |     |  |  |  +--| (Node256)
+                                                       |     |              |     |  |  |  |  +**23MPX1666C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31
+                                                       |     |              |     |  |  |  |
+                                                       |     |              |     |  |  |  +**24MPX0589V|Homo_sapiens|Equateur|Bikoro|cz|2024-02-29
+                                                       |     |              |     |  +--| (Node249)
+                                                       |     |              |     |  |  +--23MPX0723V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17
+                                                       |     |              |     |  |
+                                                       |     |              |     |  +--PP601188_24MPX0008V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|bg|2023-12-16
+                                                       |     |              |     |
+                                                       |     |              |     |        +--22MPX0502s|Homo_sapiens|DRC|Kwilu|Bandundu|cz|2022-10-06
+                                                       |     |              |     |     +--| (Node259)
+                                                       |     |              |     |     |  |  +**23MPX0245C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-03-22
+                                                       |     |              |     |     |  +--| (Node260)
+                                                       |     |              |     |     |     +**23MPX0245V|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-03-22
+                                                       |     |              |     |     |     |
+                                                       |     |              |     |     |     +**23MPX0383V|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-04-04
+                                                       |     |              |     |  +--| (Node258)
+                                                       |     |              |     |  |  +--23MPX1452V|Homo_sapiens|DRC|Kwilu|Bagata|cz|2023-09-19
+                                                       |     |              |     +--| (Node257)
+                                                       |     |              |     |  |     +**23MPX0228V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-02-20
+                                                       |     |              |     |  |  +--| (Node264)
+                                                       |     |              |     |  |  |  +**23MPX1143C|Homo_sapiens|DRC|Kinshasa|Gombe|cz|2023-08-18
+                                                       |     |              |     |  |  |  |
+                                                       |     |              |     |  |  |  +--23MPX1143V|Homo_sapiens|DRC|Kinshasa|Gombe|cz|2023-08-18
+                                                       |     |              |     |  |  |  |
+                                                       |     |              |     |  |  |  +**23MPX1289V|Homo_sapiens|DRC|Kinshasa|Matete|cz|2023-09-08
+                                                       |     |              |     |  +--| (Node262)
+                                                       |     |              |     |     +--23MPX0475C|Homo_sapiens|DRC|Maindombe|Mushie|cz|2023-04-22
+                                                       |     |              |     |     |
+                                                       |     |              |     |     +--23MPX1229V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-23
+                                                       |     |              |     |     |
+                                                       |     |              |     |     +**24MPX0588V|Homo_sapiens|Equateur|Bikoro|cz|2024-02-29
+                                                       |     |              |     |
+                                                       |     |              |     |  +**22MPX0506C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01
+                                                       |     |              |     +--| (Node236)
+                                                       |     |              |     |  +**22MPX0506V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01
+                                                       |     |              |     |  |
+                                                       |     |              |     |  +**22MPX0507V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01
+                                                       |     |              |     |  |
+                                                       |     |              |     |  |  +**22MPX0509C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01
+                                                       |     |              |     |  +--| (Node241)
+                                                       |     |              |     |  |  +**22MPX0510V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01
+                                                       |     |              |     |  |
+                                                       |     |              |     |  |  +**23MPX0495C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-05-03
+                                                       |     |              |     |  +--| (Node242)
+                                                       |     |              |     |  |  +**24MPX0611V|Homo_sapiens|Sud-Ubangi|Budjala|cz|2024-02-22
+                                                       |     |              |     |  |
+                                                       |     |              |     |  |  +**23MPX0727V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17
+                                                       |     |              |     |  +--| (Node244)
+                                                       |     |              |     |  |  +**23MPX1660V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-11-01
+                                                       |     |              |     |  |
+                                                       |     |              |     |  +--23MPX1470V|Homo_sapiens|DRC|Equateur|Ntondo|cz|2023-10-04
+                                                       |     |              |     |
+                                                       |     |              |     +--24MPX0443V|Homo_sapiens|Equateur|Lukolela|cz|2024-01-22
+                                                       |     |           +--| (Node68)
+                                                       |     |           |  |           +--22MPX0049C|Homo_sapiens|DRC|Equateur|Mbandaka|cz|2022-03-02
+                                                       |     |           |  |        +--| (Node363)
+                                                       |     |           |  |        |  +--22MPX0050C|Homo_sapiens|DRC|Equateur|Mbandaka|cz|2022-03-02
+                                                       |     |           |  |        |  |
+                                                       |     |           |  |        |  |  +--23MPX0274S|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-23
+                                                       |     |           |  |        |  +--| (Node367)
+                                                       |     |           |  |        |  |  |  +--23MPX1199V|Homo_sapiens|DRC|Sud-Ubangi|Libenge|cz|2023-08-09
+                                                       |     |           |  |        |  |  +--| (Node370)
+                                                       |     |           |  |        |  |  |  +--23MPX1535C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-11
+                                                       |     |           |  |        |  |  |  |
+                                                       |     |           |  |        |  |  |  +--PP601196_24MPX0037V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-05
+                                                       |     |           |  |        |  |  |
+                                                       |     |           |  |        |  |  |  +**23MPX1448C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2023-08-27
+                                                       |     |           |  |        |  |  +--| (Node369)
+                                                       |     |           |  |        |  |     +**23MPX1449V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2023-08-27
+                                                       |     |           |  |        |  |
+                                                       |     |           |  |        |  |  +**23MPX0466C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-07
+                                                       |     |           |  |        |  +--| (Node366)
+                                                       |     |           |  |        |     +**23MPX0467C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-07
+                                                       |     |           |  |     +--| (Node361)
+                                                       |     |           |  |     |  |  +**22MPX0158V|Homo_sapiens|DRC|Kwilu|Vanga|cz|2022-06-18
+                                                       |     |           |  |     |  +--| (Node373)
+                                                       |     |           |  |     |  |  +**22MPX0159V|Homo_sapiens|DRC|Kwilu|Vanga|cz|2022-06-18
+                                                       |     |           |  |     |  |
+                                                       |     |           |  |     |  |     +**23MPX0018C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-10-02
+                                                       |     |           |  |     |  |  +--| (Node375)
+                                                       |     |           |  |     |  |  |  +**23MPX0019C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-10-02
+                                                       |     |           |  |     |  +--| (Node374)
+                                                       |     |           |  |     |  |  +--23MPX0140C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-12-26
+                                                       |     |           |  |     |  |
+                                                       |     |           |  |     |  |     +**23MPX0369V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05
+                                                       |     |           |  |     |  |  +--| (Node377)
+                                                       |     |           |  |     |  |  |  +**23MPX0370C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05
+                                                       |     |           |  |     |  |  |  |
+                                                       |     |           |  |     |  |  |  +**23MPX0372V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05
+                                                       |     |           |  |     |  +--| (Node376)
+                                                       |     |           |  |     |     |  +**23MPX0471C|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-11
+                                                       |     |           |  |     |     +--| (Node380)
+                                                       |     |           |  |     |     |  +**23MPX0473C|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-11
+                                                       |     |           |  |     |     |
+                                                       |     |           |  |     |     |     +--23MPX1536V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-26
+                                                       |     |           |  |     |     |  +--| (Node383)
+                                                       |     |           |  |     |     |  |  +**23MPX1626C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-08-06
+                                                       |     |           |  |     |     +--| (Node382)
+                                                       |     |           |  |     |     |  +--MN702451|Homo_sapiens|CAR|Lobaye|Mbaiki|bg|2017-04-14
+                                                       |     |           |  |     |     |
+                                                       |     |           |  |     |     |  +--23MPX1538C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-02
+                                                       |     |           |  |     |     +--| (Node384)
+                                                       |     |           |  |     |        +--KP849469|Homo_sapiens|DRC|Tshuapa|Boende|bg|2008-XX-XX
+                                                       |     |           |  |  +--| (Node359)
+                                                       |     |           |  |  |  |  +**22MPX0636V|Homo_sapiens|DRC|Kasai|Ndjoko-punda|cz|2022-12-17
+                                                       |     |           |  |  |  +--| (Node385)
+                                                       |     |           |  |  |  |  +**23MPX0063S|Homo_sapiens|DRC|Kasai|Kalonda-Ouest|cz|2022-12-31
+                                                       |     |           |  |  |  |  |
+                                                       |     |           |  |  |  |  +--23MPX0064C|Homo_sapiens|DRC|Kasai|Kamuesha|cz|2023-01-05
+                                                       |     |           |  |  |  |  |
+                                                       |     |           |  |  |  |  +**23MPX0069C|Homo_sapiens|DRC|Kasai|Kamuesha|cz|2023-01-05
+                                                       |     |           |  |  |  |
+                                                       |     |           |  |  |  +**23MPX1530V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-10-06
+                                                       |     |           |  +**| (Node358)
+                                                       |     |           |     +**23MPX1471V|Homo_sapiens|DRC|Equateur|Ntondo|cz|2023-10-04
+                                                       |     |        +--| (Node67)
+                                                       |     |        |  |              +--22MPX0174V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2022-06-16
+                                                       |     |        |  |           +--| (Node392)
+                                                       |     |        |  |           |  +--22MPX0338C|Homo_sapiens|DRC|Kwango|Kasongolunda|cz|2022-08-12
+                                                       |     |        |  |           |  |
+                                                       |     |        |  |           |  |  +--23MPX0269C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-03-23
+                                                       |     |        |  |           |  +--| (Node397)
+                                                       |     |        |  |           |  |  |  +**23MPX1454C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-08-29
+                                                       |     |        |  |           |  |  +--| (Node402)
+                                                       |     |        |  |           |  |  |  +--23MPX1455C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22
+                                                       |     |        |  |           |  |  |
+                                                       |     |        |  |           |  |  |  +**23MPX1457V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22
+                                                       |     |        |  |           |  |  +--| (Node404)
+                                                       |     |        |  |           |  |  |  +**23MPX1458V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-09-22
+                                                       |     |        |  |           |  |  |  |
+                                                       |     |        |  |           |  |  |  +**23MPX1460C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22
+                                                       |     |        |  |           |  |  |
+                                                       |     |        |  |           |  |  +**23MPX1663V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31
+                                                       |     |        |  |           |  |  |
+                                                       |     |        |  |           |  |  +**23MPX1664V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31
+                                                       |     |        |  |           |  |  |
+                                                       |     |        |  |           |  |  +**23MPX1665V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31
+                                                       |     |        |  |           |  |  |
+                                                       |     |        |  |           |  |  +**23MPX1667C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31
+                                                       |     |        |  |           |  |
+                                                       |     |        |  |           |  +**23MPX0877V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-05-08
+                                                       |     |        |  |           |  |
+                                                       |     |        |  |           |  |  +--23MPX1071V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-22
+                                                       |     |        |  |           |  +--| (Node396)
+                                                       |     |        |  |           |     +--24MPX0814C|Homo_sapiens|Equateur|Mbandaka|cz|2024-03-29
+                                                       |     |        |  |        +--| (Node391)
+                                                       |     |        |  |        |  |                       +**23MPX0278C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25
+                                                       |     |        |  |        |  |                    +**| (Node415)
+                                                       |     |        |  |        |  |                    |  +**23MPX0493V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23
+                                                       |     |        |  |        |  |                 +**| (Node414)
+                                                       |     |        |  |        |  |                 |  +**23MPX1093V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-07-29
+                                                       |     |        |  |        |  |              +**| (Node413)
+                                                       |     |        |  |        |  |              |  +**23MPX0494V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23
+                                                       |     |        |  |        |  |           +**| (Node412)
+                                                       |     |        |  |        |  |           |  +--23MPX0878V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-05-10
+                                                       |     |        |  |        |  |        +**| (Node411)
+                                                       |     |        |  |        |  |        |  +**23MPX1064V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31
+                                                       |     |        |  |        |  |     +**| (Node410)
+                                                       |     |        |  |        |  |     |  +**23MPX0492V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23
+                                                       |     |        |  |        |  |  +**| (Node409)
+                                                       |     |        |  |        |  |  |  +**23MPX1077C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31
+                                                       |     |        |  |        |  +--| (Node406)
+                                                       |     |        |  |        |     +**23MPX1073V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-08-11
+                                                       |     |        |  |        |     |
+                                                       |     |        |  |        |     |  +**23MPX1190C|Homo_sapiens|DRC|Equateur|Djombo|cz|2023-08-12
+                                                       |     |        |  |        |     +--| (Node416)
+                                                       |     |        |  |        |     |  |  +**23MPX1493S|Homo_sapiens|DRC|Equateur|Lotumbe|cz|2023-10-02
+                                                       |     |        |  |        |     |  +--| (Node418)
+                                                       |     |        |  |        |     |  |  +**23MPX1495S|Homo_sapiens|DRC|Equateur|Lotumbe|cz|2023-10-03
+                                                       |     |        |  |        |     |  |
+                                                       |     |        |  |        |     |  |  +**23MPX1529V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-10-06
+                                                       |     |        |  |        |     |  +--| (Node419)
+                                                       |     |        |  |        |     |     +**23MPX1554V|Homo_sapiens|DRC|Kinshasa|Nsele|cz|2023-10-25
+                                                       |     |        |  |        |     |
+                                                       |     |        |  |        |     +--24MPX0756V|Homo_sapiens|Equateur|Lukolela|cz|2024-03-11
+                                                       |     |        |  |     +**| (Node390)
+                                                       |     |        |  |     |  +--24MPX0429V|Homo_sapiens|Maindombe|Oshwe|cz|2024-01-08
+                                                       |     |        |  |  +--| (Node389)
+                                                       |     |        |  |  |  |  +**23MPX1668C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31
+                                                       |     |        |  |  |  +--| (Node420)
+                                                       |     |        |  |  |     +**23MPX1669C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22
+                                                       |     |        |  |  |     |
+                                                       |     |        |  |  |     +--23MPX1670V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22
+                                                       |     |        |  |  |     |
+                                                       |     |        |  |  |     +**23MPX1671C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-18
+                                                       |     |        |  |  |     |
+                                                       |     |        |  |  |     +**23MPX1672C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-20
+                                                       |     |        |  |  |     |
+                                                       |     |        |  |  |     +**23MPX1673V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22
+                                                       |     |        |  +--| (Node388)
+                                                       |     |        |     |  +**24MPX0748V|Homo_sapiens|Tshopo|Yakusu|cz|2024-03-10
+                                                       |     |        |     +--| (Node425)
+                                                       |     |        |        +**24MPX0755S|Homo_sapiens|Equateur|Lukolela|cz|2024-03-11
+                                                       |     |        |        |
+                                                       |     |        |        +--24MPX0757V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-04
+                                                       |     |        |        |
+                                                       |     |        |        +**24MPX0758V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-04
+                                                       |     |        |        |
+                                                       |     |        |        +**24MPX0765V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-15
+                                                       |     |        |        |
+                                                       |     |        |        +**24MPX0767V|Homo_sapiens|Equateur|Lilanga-Bobangi|cz|2024-03-10
+                                                       |     |        |        |
+                                                       |     |        |        +**24MPX0823V|Homo_sapiens|Sud-Ubangi|Bulu|cz|2024-03-22
+                                                       |     |     +--| (Node66)
+                                                       |     |     |  +--DQ011154|Homo_sapiens|RC|Likouala|Impfondo|bg|2003-06-09
+                                                       |     |     |  |
+                                                       |     |     |  |  +--MN702452|Homo_sapiens|CAR|Lobaye|Mongoumba|bg|2010-08-10
+                                                       |     |     |  +--| (Node432)
+                                                       |     |     |     +**MN702453|Homo_sapiens|CAR|Mbomou|Bangassou|bg|2001-08-11
+                                                       |     |  +--| (Node65)
+                                                       |     |  |  +--KJ642613|Homo_sapiens|DRC|Equateur|Bokenda|bg|1970-09-01
+                                                       |     +--| (Node64)
+                                                       |        |        +--18MPX0170C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-02-13
+                                                       |        |     +--| (Node435)
+                                                       |        |     |  |  +**18MPX0172C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-03-08
+                                                       |        |     |  +--| (Node436)
+                                                       |        |     |     +**18MPX0173C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-03-18
+                                                       |        |  +--| (Node434)
+                                                       |        |  |  |        +**23MPX0359V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21
+                                                       |        |  |  |     +--| (Node439)
+                                                       |        |  |  |     |  |  +**23MPX0361V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21
+                                                       |        |  |  |     |  +--| (Node441)
+                                                       |        |  |  |     |  |  +**23MPX0362V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21
+                                                       |        |  |  |     |  |
+                                                       |        |  |  |     |  +--23MPX0476V|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-04
+                                                       |        |  |  |  +--| (Node438)
+                                                       |        |  |  |  |  |  +**23MPX0464C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-13
+                                                       |        |  |  |  |  +--| (Node442)
+                                                       |        |  |  |  |     +**23MPX0465C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-13
+                                                       |        |  |  +--| (Node437)
+                                                       |        |  |     |     +**MN702444|Homo_sapiens|CAR|Mambere-Kadei|Bao|bg|2017-02-06
+                                                       |        |  |     |  +--| (Node446)
+                                                       |        |  |     |  |  +**MN702445|Homo_sapiens|CAR|Mambere-Kadei|Bao|bg|2017-02-06
+                                                       |        |  |     +--| (Node444)
+                                                       |        |  |     |  +--MN702446|Homo_sapiens|CAR|Mbomou|Rafai|bg|2018-04-14
+                                                       |        |  |     |  |
+                                                       |        |  |     |  +**MN702449|Homo_sapiens|CAR|Mbomou|Bangassou|bg|2016-01-02
+                                                       |        |  |     |
+                                                       |        |  |     |  +**MT724770|Crocidura_littoralis|DRC|Tshopo|Yangambi|bg|2014-01-01
+                                                       |        |  |     +--| (Node447)
+                                                       |        |  |        +--MT724772|Funisciurus_anerythrus|DRC|Tshopo|Tshopo|bg|2014-01-01
+                                                       |        +--| (Node433)
+                                                       |           |  +--DQ011155|Homo_sapiens|DRC|Sankuru|Mindembo|bg|1978-11-09
+                                                       |           +--| (Node448)
+                                                       |              |     +--KC257459|Homo_sapiens|Sudan|Nuria||bg|2005-XX-XX
+                                                       |              |  +--| (Node450)
+                                                       |              |  |  +--OQ621553|Homo_sapiens|Sudan|||bg|2022-10-XX
+                                                       |              +--| (Node449)
+                                                       |                 +--KC257460|Homo_sapiens|DRC|Mongala|Yandongi|bg|1985-XX-XX
+                                                    +--| (Node5)
+                                                    |  |           +**22hMPX035C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15
+                                                    |  |        +--| (Node455)
+                                                    |  |        |  +**22hMPX035V|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15
+                                                    |  |     +--| (Node453)
+                                                    |  |     |  |        +--22hMPX036C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15
+                                                    |  |     |  |     +--| (Node469)
+                                                    |  |     |  |     |  |  +**22MPX0193C|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-21
+                                                    |  |     |  |     |  +--| (Node470)
+                                                    |  |     |  |     |     +**22MPX0193V|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-21
+                                                    |  |     |  |  +--| (Node467)
+                                                    |  |     |  |  |  |     +--22MPX0035V|Homo_sapiens|DRC|Maniema|Kindu|co|2022-02-05
+                                                    |  |     |  |  |  |  +--| (Node472)
+                                                    |  |     |  |  |  |  |  +**22MPX0036V|Homo_sapiens|DRC|Maniema|Kindu|co|2022-02-05
+                                                    |  |     |  |  |  +--| (Node471)
+                                                    |  |     |  |  |  |  +--22MPX0127C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-05-13
+                                                    |  |     |  |  |  |
+                                                    |  |     |  |  |  +--22MPX0191V|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-20
+                                                    |  |     |  +--| (Node466)
+                                                    |  |     |  |  +--22MPX0317V|Homo_sapiens|DRC|Maniema|Alunguli|cz|2022-08-18
+                                                    |  |     |  |
+                                                    |  |     |  |           +**22hMPX037Or|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15
+                                                    |  |     |  |        +--| (Node460)
+                                                    |  |     |  |        |  +--22hMPX037V|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15
+                                                    |  |     |  |        |  |
+                                                    |  |     |  |        |  |  +**22hMPX040Or|Homo_sapiens|DRC|Maniema|Tunda|czd|2022-08-15
+                                                    |  |     |  |        |  +--| (Node462)
+                                                    |  |     |  |        |     +**22hMPX040V|Homo_sapiens|DRC|Maniema|Tunda|czd|2022-08-15
+                                                    |  |     |  |     +--| (Node459)
+                                                    |  |     |  |     |  |  +--23MPX1484V|Homo_sapiens|DRC|Sankuru|Vanga-Kete|cz|2023-10-01
+                                                    |  |     |  |     |  +--| (Node463)
+                                                    |  |     |  |     |     +--JX878426|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-05-27
+                                                    |  |     |  |  +--| (Node458)
+                                                    |  |     |  |  |  +**JX878408|Homo_sapiens|DRC|Sankuru|Katako-kombe|bg|2006-10-31
+                                                    |  |     |  +--| (Node456)
+                                                    |  |     |     |  +--JX878418|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-01-02
+                                                    |  |     |     +--| (Node464)
+                                                    |  |     |     |  +------NC_003310|Homo_sapiens|DRC|Sankuru|Katako-kombe|bg|1996-XX-XX
+                                                    |  |     |     |
+                                                    |  |     |     |  +**JX878419|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-02-10
+                                                    |  |     |     +--| (Node465)
+                                                    |  |     |        +**JX878420|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-02-26
+                                                    |  |  +--| (Node452)
+                                                    |  |  |  +--22MPX0113C|Homo_sapiens|DRC|Kwilu|Masi-manimba|cz|2022-05-13
+                                                    |  +--| (Node451)
+                                                    |  |  +--KJ642612|Homo_sapiens|DRC|Kwilu|Idiofa-Ikubi|bg|1986-XX-XX
+                                                    |  |
+                                                    |  |     +--KJ642618|Homo_sapiens|Cameroon|Centre-Region|Ekoumdouma|bg|1989-12-11
+                                                    |  |  +--| (Node474)
+                                                    |  |  |  +--OR943698|Pan_troglodytes|Cameroon|Centre-Region||bg|2016-08-XX
+                                                    |  +--| (Node473)
+                                                    |     |  +--KJ642619|Homo_sapiens|Gabon|Moyen-Ogooue|Lambarene|bg|1987-06-XX
+                                                    |     +--| (Node475)
+                                                    |        +--OP498046|Homo_sapiens|Gabon|||bg|1988-XX-XX
+                                                 +--| (Node4)
+                                                 |  +--JX878417|Homo_sapiens|DRC|Sankuru|Bena-dibele|bg|2006-12-14
++------------------------------------------------| (Node3)
+|                                                |                          +**24MPX0204V|Homo_sapiens|Sud-Kivu|Kamituga|cz|2024-01-23
+|                                                |                       +--| (Node488)
+|                                                |                       |  +--RDC-NKV-GOM-MPOX142C|Homo_sapiens|Sud-Kivu|Kamituga|2023-12-02
+|                                                |                       |  |
+|                                                |                       |  +**RDC-NKV-GOM-MPOX164C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                       |  |
+|                                                |                       |  +--RDC-NKV-GOM-MPOX167C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                       |  |
+|                                                |                       |  +**RDC-NKV-GOM-MPOX193Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                    +--| (Node487)
+|                                                |                    |  |  +**RDC-NKV-GOM-MPOX045C|Homo_sapiens|Sud-Kivu|Kamituga|2023-10-28
+|                                                |                    |  +--| (Node494)
+|                                                |                    |  |  +--RDC-NKV-GOM-MPOX095C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-13
+|                                                |                    |  |  |
+|                                                |                    |  |  +**RDC-NKV-GOM-MPOX098C|Homo_sapiens|Sud-Kivu|Kadutu|2023-11-11
+|                                                |                    |  |  |
+|                                                |                    |  |  +--RDC-NKV-GOM-MPOX112C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-14
+|                                                |                    |  |  |
+|                                                |                    |  |  +--RDC-NKV-GOM-MPOX180C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                    |  |
+|                                                |                    |  |  +**RDC-NKV-GOM-MPOX183C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                    |  +--| (Node498)
+|                                                |                    |  |  +--RDC-NKV-GOM-MPOX195C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                    |  |  |
+|                                                |                    |  |  +**RDC-NKV-GOM-MPOX209C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                    |  |
+|                                                |                    |  +**RDC-NKV-GOM-MPOX187Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                 +--| (Node483)
+|                                                |                 |  +**RDC-NKV-GOM-MPOX109C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-10
+|                                                |                 |  |
+|                                                |                 |  +**RDC-NKV-GOM-MPOX157Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                 |  |
+|                                                |                 |  +**RDC-NKV-GOM-MPOX160Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |                 |  |
+|                                                |                 |  +**RDC-NKV-GOM-MPOX169C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |              +--| (Node482)
+|                                                |              |  |     +**24MPX0212Or|Homo_sapiens|Sud-Kivu|Kamituga|cz|2024-01-20
+|                                                |              |  |  +--| (Node503)
+|                                                |              |  |  |  +--RDC-NKV-GOM-MPOX096Or|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-13
+|                                                |              |  |  |  |
+|                                                |              |  |  |  +**RDC-NKV-GOM-MPOX156C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |              |  |  |  |
+|                                                |              |  |  |  +**RDC-NKV-GOM-MPOX215C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-02
+|                                                |              |  +--| (Node500)
+|                                                |              |     |     +--RDC-NKV-GOM-MPOX043C|Homo_sapiens|Sud-Kivu|Kamituga|2023-10-23
+|                                                |              |     |  +--| (Node510)
+|                                                |              |     |  |  |  +**RDC-NKV-GOM-MPOX063C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-03
+|                                                |              |     |  |  +--| (Node512)
+|                                                |              |     |  |  |  +**RDC-NKV-GOM-MPOX064Or|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-03
+|                                                |              |     |  |  |
+|                                                |              |     |  |  +**RDC-NKV-GOM-MPOX103C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-10
+|                                                |              |     +--| (Node506)
+|                                                |              |     |  +**RDC-NKV-GOM-MPOX051C|Homo_sapiens|Sud-Kivu||2023-10-31
+|                                                |              |     |  |
+|                                                |              |     |  +**RDC-NKV-GOM-MPOX099Or|Homo_sapiens|Sud-Kivu|Kadutu|2023-11-11
+|                                                |              |     |  |
+|                                                |              |     |  +**RDC-NKV-GOM-MPOX172C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |              |     |  |
+|                                                |              |     |  +--RDC-NKV-GOM-MPOX204C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |              |     |
+|                                                |              |     +**RDC-NKV-GOM-MPOX175C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |              |     |
+|                                                |              |     +--RDC-NKV-GOM-MPOX196Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03
+|                                                |           +--| (Node481)
+|                                                |           |  +**PP601221_24MPX0228V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-27
+|                                                |        +--| (Node480)
+|                                                |        |  +**PP601208_24MPX0201V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23
+|                                                |        |  |
+|                                                |        |  +**PP601213_24MPX0209V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-19
+|                                                |        |  |
+|                                                |        |  +--PP601217_24MPX0221V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-26
+|                                                |        |  |
+|                                                |        |  +**PP601219_24MPX0224C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-25
+|                                                |        |  |
+|                                                |        |  +--PP601222_24MPX0230C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-31
+|                                                |        |  |
+|                                                |        |  +**PP601223_24MPX0231V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-21
+|                                                |        |  |
+|                                                |        |  +--PP601225_24MPX0240V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-14
+|                                                |     +--| (Node477)
+|                                                |     |  |  +**PP601207_24MPX0198V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23
+|                                                |     |  +--| (Node521)
+|                                                |     |  |  +**PP601210_24MPX0205V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-28
+|                                                |     |  |  |
+|                                                |     |  |  +**PP601211_24MPX0206V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23
+|                                                |     |  |  |
+|                                                |     |  |  |  +**PP601212_24MPX0207Or|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23
+|                                                |     |  |  +--| (Node525)
+|                                                |     |  |  |  +**PP601226_24MPX0242V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-15
+|                                                |     |  |  |
+|                                                |     |  |  +**PP601215_24MPX0217V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23
+|                                                |     |  |  |
+|                                                |     |  |  +**PP601216_24MPX0220V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-26
+|                                                |     |  |  |
+|                                                |     |  |  +**PP601224_24MPX0239V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-10
+|                                                |     |  |
+|                                                |     |  +**PP601209_24MPX0203V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23
+|                                                |     |  |
+|                                                |     |  +**PP601214_24MPX0214V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23
+|                                                |     |  |
+|                                                |     |  |  +**PP601218_24MPX0223C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-26
+|                                                |     |  +--| (Node520)
+|                                                |     |     +**PP601220_24MPX0226V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-26
+|                                                +-----| (Node476)
+|                                                      +**PP601227_RDC-NKV-GOM-MPOX-004|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-10-05
+|                                                      |
+|                                                      +--PP601228_RDC-NKV-GOM-MPOX-010|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-10-13
+| (Node2)
++-------KJ642616
+|
+|     +---KJ642615
++-----| (Node1)
+      +---------KJ642617
+
+Tree in newick format:
+
+(((((((18MPX0083S|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2018-01-11:0.0000135818,((21MPX0197C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2021-06-15:0.0000000001,21MPX0198C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2021-06-16:0.0000000001)Node11:0.0000158958,22MPX0486C|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2022-09-03:0.0000053493)Node10:0.0000282809)Node9:0.0001036972,((18MPX0175C|Homo_sapiens|DRC|Bas-Uele|Titule|cz|2018-02-12:0.0000160677,22MPX0139V|Homo_sapiens|DRC|Haut-Uele|Isiro|cz|2022-06-07:0.0000263286,(23MPX0468C|Homo_sapiens|DRC|Haut-Uele|Pawa|cz|2023-03-30:0.0000000001,23MPX0469C|Homo_sapiens|DRC|Haut-Uele|Pawa|cz|2023-03-30:0.0000063436)Node16:0.0000362081)Node14:0.0000315556,(23MPX0070V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-10:0.0000000001,23MPX0126V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-23:0.0000055360,23MPX0147V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-01:0.0000000001,23MPX0148V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-01:0.0000000001,23MPX0185V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-01-26:0.0000000001,23MPX0186V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-07:0.0000000001,23MPX0198V|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2023-02-28:0.0000000001)Node17:0.0000906724)Node13:0.0000525835,((23MPX0011C|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23:0.0000529486,((23MPX0072C|Homo_sapiens|DRC|Tshopo|Tshopo|cz|2023-01-13:0.0000233350,23MPX0462V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-13:0.0000324789)Node28:0.0000216504,((23MPX0075V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29:0.0000000001,23MPX0076V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29:0.0000000001,23MPX0079V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-29:0.0000108903,23MPX0081C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-31:0.0000000001,23MPX0082V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-31:0.0000000001,23MPX0125V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-01:0.0000000001,23MPX0199V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-15:0.0000000001)Node33:0.0000105204,(23MPX1398V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-09-08:0.0000000001,23MPX1636C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-21:0.0000000001)Node39:0.0000053403)Node32:0.0000368186,(23MPX0130C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-01-24:0.0000000001,(23MPX0365V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05:0.0000000001,23MPX0366C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05:0.0000000001)Node31:0.0000492816,23MPX0463C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-13:0.0000000001)Node29:0.0000053896)Node26:0.0000578565,(23MPX0367C|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-04-05:0.0000219928,23MPX1506V|Homo_sapiens|DRC|Tshopo|Wanie-Rukula|cz|2023-10-05:0.0000052635,24MPX0581V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-05:0.0000318162)Node40:0.0000631443)Node24:0.0000063025,MT724771|Funisciurus_bayonii|DRC|Tshopo||bg|2014-01-01:0.0001622301)Node23:0.0000883416)Node8:0.0000577221,(((((((18MPX0115C|Homo_sapiens|DRC|Tshopo|Opala|cz|2018-02-22:0.0000054093,23MPX1300V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-08-12:0.0000380221)Node48:0.0000108154,(23MPX0357V|Homo_sapiens|DRC|Tshopo|Ubundu|cz|2023-03-29:0.0000064523,23MPX1053V|Homo_sapiens|DRC|Tshopo|Kabondo|cz|2023-07-23:0.0000217408)Node49:0.0000108694)Node47:0.0000216292,(23MPX0354V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-03-21:0.0000486577,23MPX1643C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27:0.0000338809,24MPX0580C|Homo_sapiens|Tshopo|Yaleko|cz|2024-02-14:0.0000479028)Node50:0.0000116173)Node46:0.0000158497,23MPX1157C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-07-17:0.0000488289)Node45:0.0000845369,KP849471|Funisciurus_anerythrus|DRC|Mongala|Yambuku|bg|1985-07-XX:0.0000315390)Node44:0.0000262749,((23MPX0022V|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-07-30:0.0000904165,((JX878409|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-09:0.0000000001,JX878411|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-30:0.0000000001)Node55:0.0000052591,JX878412|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-30:0.0000157778)Node54:0.0000210353)Node53:0.0000578295,JX878410|Homo_sapiens|DRC|Sankuru|Vangakete|bg|2006-11-24:0.0000000001,((JX878413|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-14:0.0000000001,JX878414|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-14:0.0000000001,JX878415|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-26:0.0000000001,JX878416|Homo_sapiens|DRC|Sankuru|Lomela|bg|2006-12-26:0.0000052569,JX878421|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-03-22:0.0000052570,JX878427|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-05-25:0.0000000001,JX878428|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-06-30:0.0000052569)Node58:0.0000052571,JX878422|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-03-20:0.0000157710)Node57:0.0000525704)Node52:0.0000315400)Node43:0.0000576335,((((((((((((18MPX0116C|Homo_sapiens|DRC|Tshopo|Bafwasende|cz|2018-02-15:0.0000162534,((22MPX0515C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-03:0.0000000001,22MPX0515V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-03:0.0000000001)Node81:0.0000054450,(23MPX1303C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-08:0.0000000001,23MPX1393C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-09:0.0000000001,23MPX1396V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-09-09:0.0000000001)Node83:0.0000216640,(24MPX0571V|Homo_sapiens|Tshopo|Basoko|cz|2024-02-10:0.0000000001,24MPX0572C|Homo_sapiens|Tshopo|Basoko|cz|2024-02-27:0.0000000001,24MPX0574C|Homo_sapiens|Tshopo|Basoko|cz|2024-02-27:0.0000000001)Node85:0.0000066542)Node80:0.0000131904)Node79:0.0000065929,(18MPX0174C|Homo_sapiens|DRC|Bas-Uele|Titule|cz|2018-04-24:0.0000107702,(((22MPX0156C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2022-06-22:0.0000000001,22MPX0156V|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2022-06-22:0.0000000001,22MPX0296C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-28:0.0000000001)Node112:0.0000105313,((22MPX0610C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31:0.0000000001,22MPX0610V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31:0.0000000001,22MPX0611V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-10-31:0.0000105687)Node115:0.0000157735,((23MPX0044C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30:0.0000000001,23MPX0046C|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30:0.0000000001)Node118:0.0000054219,23MPX0045V|Homo_sapiens|DRC|Tshopo|Opala|cz|2022-12-30:0.0000000001)Node117:0.0000054200)Node114:0.0000262889)Node111:0.0000105144,(23MPX0380C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2023-04-05:0.0000000001,23MPX0381C|Homo_sapiens|DRC|Tshopo|Yabaondo|cz|2023-04-05:0.0000000001)Node119:0.0000214510,23MPX1185V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-07-16:0.0000213790)Node109:0.0000052571,((22MPX0290C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31:0.0000000001,22MPX0291C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31:0.0000000001,22MPX0292C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-07-31:0.0000000001,(22MPX0402V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-13:0.0000000001,22MPX0405V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21:0.0000000001,22MPX0406V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21:0.0000000001,22MPX0407C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21:0.0000000001,22MPX0409V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-21:0.0000000001,22MPX0410V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-15:0.0000000001)Node97:0.0000052897,22MPX0408C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-09-15:0.0000000001,22MPX0412C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-08-22:0.0000000001)Node92:0.0000052633,(23MPX1107C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-11:0.0000052722,23MPX1108C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-15:0.0000000001,23MPX1109C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-11:0.0000000001,23MPX1115C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-30:0.0000000001,23MPX1273C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-08-20:0.0000070367,23MPX1275C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-07-17:0.0000000001)Node102:0.0000263022)Node91:0.0000210294,(23MPX0214C|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28:0.0000000001,23MPX0215V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28:0.0000000001,23MPX0216V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-02-28:0.0000000001)Node107:0.0000420632,23MPX1085C|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2023-07-30:0.0000351102)Node87:0.0000052560)Node78:0.0000052558,(((22MPX0172V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-06-27:0.0000000001,22MPX0173V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-06-27:0.0000000001,22MPX0280C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-07-27:0.0000000001,OQ729808|Homo_sapiens|DRC|||bg|2022-XX-XX:0.0000236515)Node124:0.0000177382,23MPX1302C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-09-05:0.0000057200)Node123:0.0000059125,(22MPX0511C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-17:0.0000000001,22MPX0512V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-09-16:0.0000000001)Node162:0.0000324510,(22MPX0613V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08:0.0000000001,22MPX0614V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08:0.0000105662,((23MPX0036C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-28:0.0000000001,(23MPX0038C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-28:0.0000000001,(23MPX0074C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-24:0.0000000002,23MPX0077C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-10:0.0000000002)Node161:0.0000000100,24MPX0576V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14:0.0000000001)Node159:0.0000081115,23MPX0084C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-28:0.0000000002)Node157:0.0000002253,23MPX0037C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-27:0.0000000001,23MPX0073C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-11-23:0.0000000001,23MPX0078C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-15:0.0000057718)Node154:0.0000078553,23MPX0039C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-16:0.0000000001,23MPX0040C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-16:0.0000000001,23MPX0085C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-02:0.0000000001,23MPX0087C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-12-20:0.0000000001,23MPX0088C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-01-02:0.0000000001,23MPX0197V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-07:0.0000000001,(24MPX0575V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14:0.0000000001,24MPX0577V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14:0.0000000001,24MPX0578V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14:0.0000000001,24MPX0579C|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14:0.0000000001,24MPX0582V|Homo_sapiens|Tshopo|Yakusu|cz|2024-02-14:0.0000000001,PP601203_24MPX0174C|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08:0.0000000001,PP601204_24MPX0175V|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08:0.0000000001)Node145:0.0000052648)Node139:0.0000105150,(((23MPX0047C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07:0.0000000001,23MPX0049C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07:0.0000000001,23MPX0062C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07:0.0000000001)Node129:0.0000108359,(PP601192_24MPX0018V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2024-01-02:0.0000000001,PP601193_24MPX0024C|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-27:0.0000000001,PP601194_24MPX0025V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-30:0.0000064925,PP601195_24MPX0026V|Homo_sapiens|DRC|Tshopo|Yahuma|bg|2023-12-30:0.0000000001)Node131:0.0000105105)Node128:0.0000052552,(23MPX0060C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-07:0.0000000001,23MPX0061C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06:0.0000000001)Node135:0.0000324251,(23MPX0508V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-26:0.0000000001,23MPX0509V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-27:0.0000000001,23MPX0510V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-27:0.0000000001)Node136:0.0000210796)Node127:0.0000052550,23MPX0184C|Homo_sapiens|DRC|Tshopo|Basali|cz|2023-02-08:0.0000326530)Node120:0.0000157640)Node77:0.0000052540,(((((22MPX0288C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-08-08:0.0000000001,22MPX0513C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-09-19:0.0000053469)Node167:0.0000052990,(23MPX1462C|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-23:0.0000000001,23MPX1463V|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-25:0.0000052599,23MPX1464V|Homo_sapiens|DRC|Tshopo|Kisangani|cz|2023-09-28:0.0000053205)Node168:0.0000052575)Node166:0.0000262883,((22MPX0548V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-26:0.0000000001,22MPX0549V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-10-26:0.0000000001,22MPX0612V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08:0.0000000001,22MPX0615V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2022-11-08:0.0000000001)Node171:0.0000105153,(23MPX0187C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-02:0.0000000001,23MPX0196V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-02-12:0.0000000001)Node175:0.0000053712,(23MPX0644V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-08:0.0000000001,23MPX0645V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-08:0.0000000001,23MPX0646V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-07:0.0000000001,23MPX0647V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15:0.0000000001,23MPX0648V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15:0.0000000001)Node176:0.0000263010)Node170:0.0000105152)Node165:0.0000105146,((23MPX1644C|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27:0.0000000001,23MPX1645V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27:0.0000000001,23MPX1646V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27:0.0000000001,23MPX1648V|Homo_sapiens|DRC|Tshopo|Yakusu|cz|2023-10-27:0.0000000001,PP601201_24MPX0168V|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08:0.0000000001,PP601202_24MPX0169C|Homo_sapiens|DRC|Tshopo|Yakusu|bg|2024-01-08:0.0000105401)Node182:0.0000052561,PP601199_24MPX0164V|Homo_sapiens|DRC|Tshopo|Basoko|bg|2024-01-13:0.0000052559,PP601200_24MPX0166C|Homo_sapiens|DRC|Tshopo|Basoko|bg|2024-01-13:0.0000000001)Node180:0.0000052557)Node164:0.0000052555,(23MPX0355V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-02-22:0.0000107723,23MPX0356V|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-02-25:0.0000108577,23MPX1674C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-21:0.0000000001,23MPX1675S|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-27:0.0000000001,23MPX1676C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-27:0.0000000001,23MPX1677C|Homo_sapiens|DRC|Tshopo|Opala|cz|2023-10-21:0.0000000001)Node187:0.0000262941)Node163:0.0000157658,((22MPX0452V|Homo_sapiens|DRC|Tshopo|Yalimbongo|cz|2022-09-23:0.0000000001,(23MPX0377V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05:0.0000000001,23MPX0378V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05:0.0000000001,23MPX0379V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-05:0.0000000001)Node195:0.0000053036)Node194:0.0000158658,(23MPX0043C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-05:0.0000000001,23MPX0048C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-05:0.0000000001,23MPX0057C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06:0.0000000001,23MPX0059C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-01-06:0.0000000001)Node197:0.0000161543)Node193:0.0000211448,(((23MPX0135V|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24:0.0000000001,23MPX0136V|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24:0.0000000001)Node205:0.0000322565,(23MPX0751V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07:0.0000000001,23MPX0755V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07:0.0000000001)Node207:0.0000213570,24MPX0593C|Homo_sapiens|Sud-Ubangi|Bangabola|cz|2024-02-25:0.0000214958)Node204:0.0000105869,(23MPX0756V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-07:0.0000052613,23MPX0757V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-03:0.0000000001,23MPX0758V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-02:0.0000000001,(23MPX1539V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-02:0.0000000001,23MPX1540V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-07:0.0000000001,23MPX1541V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-08:0.0000000001,PP601184_23MPX1769C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|bg|2023-11-25:0.0000054645)Node215:0.0000105156,24MPX0595V|Homo_sapiens|Sud-Ubangi|Ndage|cz|2024-02-24:0.0000057666,PP601186_23MPX1793V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|bg|2023-12-16:0.0000052971)Node210:0.0000052578,((23MPX0759V|Homo_sapiens|DRC|Sud-Ubangi|Bogose-nubea|cz|2023-06-04:0.0000000001,(((23MPX0896S|Homo_sapiens|DRC|Sud-Ubangi|Gemena|cz|2023-07-14:0.0000000001,PP601182_23MPX1740C|Homo_sapiens|DRC|Sud-Ubangi|Tandala|bg|2023-11-09:0.0000053329,PP601185_23MPX1786C|Homo_sapiens|DRC|Sud-Ubangi|Tandala|bg|2023-12-18:0.0000061342)Node224:0.0000158899,24MPX0323C|Homo_sapiens|Sud-Ubangi|Bogose-Nubea|cz|2024-01-30:0.0000000001,PP601197_24MPX0038V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-07:0.0000000001)Node222:0.0000052556,PP601191_24MPX0014C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-24:0.0000000001,PP601198_24MPX0041V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-08:0.0000056322)Node220:0.0000056304)Node219:0.0000056306,23MPX1442C|Homo_sapiens|DRC|Sud-Ubangi|Boto|cz|2023-09-10:0.0000052667)Node218:0.0000056306,23MPX1137V|Homo_sapiens|DRC|Sud-Ubangi|Ndage|cz|2023-08-07:0.0000229797,((24MPX0486V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX:0.0000329761,24MPX0813V|Homo_sapiens|Equateur|Mbandaka|cz|2024-03-29:0.0000237362)Node209:0.0000028956,24MPX0495V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX:0.0000154232)Node208:0.0000283284)Node200:0.0000112610,MN702450|Homo_sapiens|CAR|Mbomou|Bakouma|bg|2016-01-01:0.0000652809)Node74:0.0000225188,(MN702447|Homo_sapiens|CAR|Mbomou|Rafai|bg|2018-03-20:0.0000000001,MN702448|Homo_sapiens|CAR|Ouaka|Ippy|bg|2018-03-07:0.0000054558)Node226:0.0000218238)Node73:0.0000056289,(((24MPX0kum|Homo_sapiens|DRC|Sud-Ubangi|Bulu|iv|2024-02-15:0.0000000001,24MPX0513V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2024-02-10:0.0000000001)Node229:0.0000052560,PP601190_24MPX0012C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-23:0.0000157691)Node228:0.0000262807,24MPX0817V|Homo_sapiens|Mongala|Bosondjo|cz|2024-02-04:0.0000287882)Node227:0.0000525603)Node72:0.0000112592,(((18MPX0135C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2018-03-23:0.0000054339,18MPX0145C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2018-03-23:0.0000054107,(23MPX0452V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000000001,23MPX0455V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000000001,23MPX0457V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000000001,23MPX0459V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000000001)Node342:0.0000108598,(23MPX0460C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000054707,23MPX0461C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000000001)Node341:0.0000163453)Node338:0.0000314709,(22MPX0222C|Homo_sapiens|DRC|Kasai|mushenge|cz|2022-07-8:0.0000000001,22MPX0223C|Homo_sapiens|DRC|Kasai|mushenge|cz|2022-07-8:0.0000000001)Node345:0.0000411562)Node337:0.0000062932,(((23MPX0002S|Homo_sapiens|DRC|Maniema|Obokote|cz|2022-10-11:0.0000000001,23MPX0014V|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23:0.0000000001,23MPX0015V|Homo_sapiens|DRC|Sankuru|Lodja|cz|2022-11-23:0.0000000001)Node348:0.0000422619,(23MPX0769V|Homo_sapiens|DRC|Sankuru|Ototi|cz|2023-06-28:0.0000000001,23MPX0770V|Homo_sapiens|DRC|Sankuru|Ototi|cz|2023-06-23:0.0000000001)Node350:0.0000492545)Node347:0.0000105621,(23MPX0451C|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000000001,23MPX0453V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000000001,23MPX0454V|Homo_sapiens|DRC|Sankuru|Bena-Dibele|cz|2023-03-30:0.0000000001)Node352:0.0000478882,(JX878407|Homo_sapiens|DRC|Sankuru|Kole|bg|2006-10-09:0.0000105476,(JX878423|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-03-25:0.0000052738,JX878424|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-03-25:0.0000000001)Node356:0.0000052737,(JX878425|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-04-20:0.0000000001,JX878429|Homo_sapiens|DRC|Sankuru|Lomela|bg|2007-09-04:0.0000000001)Node357:0.0000369166)Node354:0.0000210948)Node346:0.0000157816)Node336:0.0000157816,(((20MPX0003S|Homo_sapiens|DRC|Maindombe|Kiri|cz|2020-01-07:0.0000000001,(23MPX0028V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18:0.0000000001,23MPX0030V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-16:0.0000000001,23MPX0033C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-16:0.0000000001,23MPX0034C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18:0.0000000001,23MPX0035C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2022-12-18:0.0000000001)Node276:0.0000262919,23MPX0491C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22:0.0000107360,24MPX0591C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-26:0.0000105861)Node273:0.0000105153,((22MPX0420C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09:0.0000000001,(22MPX0421C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09:0.0000000001,22MPX0423C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09:0.0000000001,22MPX0424C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09:0.0000000001)Node298:0.0000052641,(22MPX0422C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-09:0.0000000001,(22MPX0508C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01:0.0000000001,22MPX0508V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01:0.0000000001)Node303:0.0000052919,(23MPX0273C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-23:0.0000000001,23MPX0334C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-24:0.0000000001,23MPX0490V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22:0.0000053995,PP601205_24MPX0188V|Homo_sapiens|DRC|Equateur|Lotumbe|bg|2024-01-20:0.0000053331)Node309:0.0000105109,23MPX0291V|Homo_sapiens|DRC|Equateur|Ingende|cz|2023-03-23:0.0000057109,23MPX0649V|Homo_sapiens|DRC|Tshopo|Bengamisa|cz|2023-06-15:0.0000000001,23MPX1040V|Homo_sapiens|DRC|Equateur|Wangata|cz|2023-07-27:0.0000000001,23MPX1072C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-22:0.0000105753,(23MPX1443V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-03:0.0000105365,23MPX1627C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-08-06:0.0000054007,PP601189_24MPX0009C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2023-12-18:0.0000052560)Node314:0.0000157671,(23MPX1478C|Homo_sapiens|DRC|Kinshasa|Lemba|cz|2023-10-06:0.0000000001,23MPX1555V|Homo_sapiens|DRC|Kinshasa|Limete|cz|2023-10-26:0.0000000001,PP601187_23MPX1806V|Homo_sapiens|DRC|Kinshasa|Kintambo|bg|2023-12-22:0.0000000001)Node316:0.0000105123,(24MPX0594V|Homo_sapiens|Sud-Ubangi|Bokungu|cz|2024-02-10:0.0000000001,PP601183_23MPX1766C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|bg|2023-11-21:0.0000105145)Node312:0.0000105140)Node300:0.0000105098,(23MPX0288C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25:0.0000052619,(23MPX0487V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-24:0.0000001476,23MPX0489V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22:0.0000000001)Node320:0.0000052759,24MPX0763V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-13:0.0000117190)Node318:0.0000052605)Node295:0.0000052551,(22MPX0503C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30:0.0000000001,22MPX0504C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30:0.0000000001,22MPX0505C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-09-30:0.0000054252,23MPX1037V|Homo_sapiens|DRC|Equateur|Lilanga|cz|2023-07-31:0.0000287575,(24MPX0760V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08:0.0000086539,24MPX0761V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08:0.0000057326,24MPX0762V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-08:0.0000000001,24MPX0764V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-14:0.0000000001)Node326:0.0000297548)Node322:0.0000234171,(24MPX0514V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2024-02-10:0.0000000001,24MPX0541V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX:0.0000187180)Node329:0.0000161206)Node294:0.0000052550,(23MPX0368V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-03-25:0.0000000001,23MPX0373V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05:0.0000000001,23MPX0374C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-03-27:0.0000000001,23MPX0375C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05:0.0000000001,23MPX0376V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05:0.0000000001)Node282:0.0000161895,(23MPX0732V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-18:0.0000000001,23MPX0738V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17:0.0000000001)Node287:0.0000172957,(23MPX0752V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-06-26:0.0000000001,24MPX0509V|Homo_sapiens|DRC|Sud-Ubangi|cz|2024-02-XX:0.0000228636)Node293:0.0000052659,(23MPX1063V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31:0.0000108324,(23MPX1661V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-11-04:0.0000000001,24MPX0303C|Homo_sapiens|Maindombe|Inongo|cz|2023-11-23:0.0000000001,24MPX0305V|Homo_sapiens|Maindombe|Inongo|cz|2023-11-23:0.0000055594)Node290:0.0000107581)Node289:0.0000161316,23MPX1447C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|cz|2023-09-12:0.0000324063,24MPX0535C|Homo_sapiens|Sud-Ubangi|Kungu|cz|2024-02-07:0.0000059111,24MPX0592C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-18:0.0000000001)Node270:0.0000052542,23MPX0279S|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25:0.0000285689,((23MPX0338V|Homo_sapiens|DRC|Mongala|Bongandanga|cz|2023-03-10:0.0000000001,23MPX0642V|Homo_sapiens|DRC|Mongala|Bongandanga|cz|2023-06-13:0.0000056163)Node333:0.0000108496,23MPX1446C|Homo_sapiens|DRC|Sud-Ubangi|Bokonzi|cz|2023-08-14:0.0000157747)Node332:0.0000052578,23MPX1194C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-08-11:0.0000110941,23MPX1686V|Homo_sapiens|DRC|Mongala|Bosondjo|cz|2023-11-01:0.0000217655,24MPX0590C|Homo_sapiens|Equateur|Bikoro|cz|2024-02-26:0.0000249970,PP601206_24MPX0194V|Homo_sapiens|DRC|Equateur|Wangata|bg|2024-01-20:0.0000210239)Node268:0.0000262721,((22MPX0129C|Homo_sapiens|DRC|Kwilu|Kikongo|cz|2022-05-31:0.0000052628,(23MPX1511C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-10-06:0.0000000001,23MPX1512S|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-10-06:0.0000000001,23MPX1709C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-11-14:0.0000000001)Node234:0.0000368230)Node233:0.0000420743,(22MPX0314V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2022-08-11:0.0000371390,23MPX0134C|Homo_sapiens|DRC|Sud-Ubangi|Mbaya|cz|2023-01-24:0.0000166767,(((23MPX0225V|Homo_sapiens|DRC|Equateur|Ingende|cz|2023-03-06:0.0000053981,(23MPX0340C|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-03-29:0.0000000001,23MPX0341C|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-03-29:0.0000000001)Node252:0.0000105280)Node251:0.0000052634,(23MPX0485V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22:0.0000000001,23MPX0486V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-22:0.0000000001)Node255:0.0000216619,(23MPX1658V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-10-20:0.0000000001,23MPX1666C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31:0.0000000001)Node256:0.0000053976,24MPX0589V|Homo_sapiens|Equateur|Bikoro|cz|2024-02-29:0.0000000001)Node250:0.0000052632,23MPX0723V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17:0.0000213182)Node249:0.0000052631,PP601188_24MPX0008V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|bg|2023-12-16:0.0000052709)Node246:0.0000105164,(((22MPX0502s|Homo_sapiens|DRC|Kwilu|Bandundu|cz|2022-10-06:0.0000421825,(23MPX0245C|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-03-22:0.0000000001,23MPX0245V|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-03-22:0.0000000001,23MPX0383V|Homo_sapiens|DRC|Kwango|Kenge|cz|2023-04-04:0.0000000001)Node260:0.0000186057)Node259:0.0000062004,23MPX1452V|Homo_sapiens|DRC|Kwilu|Bagata|cz|2023-09-19:0.0000282375)Node258:0.0000186046,((23MPX0228V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-02-20:0.0000000001,23MPX1143C|Homo_sapiens|DRC|Kinshasa|Gombe|cz|2023-08-18:0.0000000001,23MPX1143V|Homo_sapiens|DRC|Kinshasa|Gombe|cz|2023-08-18:0.0000052807,23MPX1289V|Homo_sapiens|DRC|Kinshasa|Matete|cz|2023-09-08:0.0000000001)Node264:0.0000158216,23MPX0475C|Homo_sapiens|DRC|Maindombe|Mushie|cz|2023-04-22:0.0000272226,23MPX1229V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-23:0.0000108471,24MPX0588V|Homo_sapiens|Equateur|Bikoro|cz|2024-02-29:0.0000000001)Node262:0.0000263559)Node257:0.0000105411,(22MPX0506C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01:0.0000000001,22MPX0506V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01:0.0000000001,22MPX0507V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01:0.0000000001,(22MPX0509C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01:0.0000000001,22MPX0510V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2022-10-01:0.0000000001)Node241:0.0000053013,(23MPX0495C|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-05-03:0.0000000001,24MPX0611V|Homo_sapiens|Sud-Ubangi|Budjala|cz|2024-02-22:0.0000000001)Node242:0.0000263020,(23MPX0727V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-06-17:0.0000000001,23MPX1660V|Homo_sapiens|DRC|Maindombe|Banjow-Moke|cz|2023-11-01:0.0000000001)Node244:0.0000054384,23MPX1470V|Homo_sapiens|DRC|Equateur|Ntondo|cz|2023-10-04:0.0000052580)Node236:0.0000052571,24MPX0443V|Homo_sapiens|Equateur|Lukolela|cz|2024-01-22:0.0000279221)Node230:0.0000420510)Node69:0.0000056316,((((22MPX0049C|Homo_sapiens|DRC|Equateur|Mbandaka|cz|2022-03-02:0.0000215640,22MPX0050C|Homo_sapiens|DRC|Equateur|Mbandaka|cz|2022-03-02:0.0000158555,(23MPX0274S|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-23:0.0000368293,(23MPX1199V|Homo_sapiens|DRC|Sud-Ubangi|Libenge|cz|2023-08-09:0.0000329425,23MPX1535C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-11:0.0000315532,PP601196_24MPX0037V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|bg|2024-01-05:0.0000408059)Node370:0.0000052581,(23MPX1448C|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2023-08-27:0.0000000001,23MPX1449V|Homo_sapiens|DRC|Sud-Ubangi|Bulu|cz|2023-08-27:0.0000000001)Node369:0.0000262924)Node367:0.0000052573,(23MPX0466C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-07:0.0000000001,23MPX0467C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-07:0.0000000001)Node366:0.0000368098)Node363:0.0000052570,(22MPX0158V|Homo_sapiens|DRC|Kwilu|Vanga|cz|2022-06-18:0.0000000001,22MPX0159V|Homo_sapiens|DRC|Kwilu|Vanga|cz|2022-06-18:0.0000000001)Node373:0.0000527106,((23MPX0018C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-10-02:0.0000000001,23MPX0019C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-10-02:0.0000000001)Node375:0.0000054250,23MPX0140C|Homo_sapiens|DRC|Sankuru|Lomela|cz|2022-12-26:0.0000431928)Node374:0.0000323747,((23MPX0369V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05:0.0000000001,23MPX0370C|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05:0.0000000001,23MPX0372V|Homo_sapiens|DRC|Mongala|Bosomanzi|cz|2023-04-05:0.0000000001)Node377:0.0000488913,(23MPX0471C|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-11:0.0000000001,23MPX0473C|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-11:0.0000000001)Node380:0.0000372932,((23MPX1536V|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-09-26:0.0000052659,23MPX1626C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-08-06:0.0000000001)Node383:0.0000210606,MN702451|Homo_sapiens|CAR|Lobaye|Mbaiki|bg|2017-04-14:0.0000217619)Node382:0.0000315772,(23MPX1538C|Homo_sapiens|DRC|Sud-Ubangi|Bangabola|cz|2023-10-02:0.0000509885,KP849469|Homo_sapiens|DRC|Tshuapa|Boende|bg|2008-XX-XX:0.0000290704)Node384:0.0000082402)Node376:0.0000174392)Node361:0.0000052547,(22MPX0636V|Homo_sapiens|DRC|Kasai|Ndjoko-punda|cz|2022-12-17:0.0000000001,23MPX0063S|Homo_sapiens|DRC|Kasai|Kalonda-Ouest|cz|2022-12-31:0.0000000001,23MPX0064C|Homo_sapiens|DRC|Kasai|Kamuesha|cz|2023-01-05:0.0000063311,23MPX0069C|Homo_sapiens|DRC|Kasai|Kamuesha|cz|2023-01-05:0.0000000001)Node385:0.0000673064,23MPX1530V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-10-06:0.0000000001)Node359:0.0000056239,23MPX1471V|Homo_sapiens|DRC|Equateur|Ntondo|cz|2023-10-04:0.0000000001)Node358:0.0000000006)Node68:0.0000052540,(((((22MPX0174V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2022-06-16:0.0000113953,22MPX0338C|Homo_sapiens|DRC|Kwango|Kasongolunda|cz|2022-08-12:0.0000480853,(23MPX0269C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-03-23:0.0000226257,(23MPX1454C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-08-29:0.0000000001,23MPX1455C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22:0.0000070553)Node402:0.0000056847,(23MPX1457V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22:0.0000000001,23MPX1458V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-09-22:0.0000000001,23MPX1460C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-08-22:0.0000000001)Node404:0.0000052595,23MPX1663V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31:0.0000000001,23MPX1664V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31:0.0000000001,23MPX1665V|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31:0.0000000001,23MPX1667C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31:0.0000000001)Node397:0.0000052589,23MPX0877V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-05-08:0.0000000001,(23MPX1071V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-22:0.0000106355,24MPX0814C|Homo_sapiens|Equateur|Mbandaka|cz|2024-03-29:0.0000298645)Node396:0.0000052727)Node392:0.0000052580,((((((((23MPX0278C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-03-25:0.0000000001,23MPX0493V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23:0.0000000002)Node415:0.0000000009,23MPX1093V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-07-29:0.0000000001)Node414:0.0000014788,23MPX0494V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23:0.0000000001)Node413:0.0000015249,23MPX0878V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-05-10:0.0000107829)Node412:0.0000014793,23MPX1064V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31:0.0000000001)Node411:0.0000007570,23MPX0492V|Homo_sapiens|DRC|Equateur|Bikoro|cz|2023-04-23:0.0000000001)Node410:0.0000001661,23MPX1077C|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-07-31:0.0000000001)Node409:0.0000005743,23MPX1073V|Homo_sapiens|DRC|Equateur|Bolomba|cz|2023-08-11:0.0000000001,(23MPX1190C|Homo_sapiens|DRC|Equateur|Djombo|cz|2023-08-12:0.0000000001,(23MPX1493S|Homo_sapiens|DRC|Equateur|Lotumbe|cz|2023-10-02:0.0000000001,23MPX1495S|Homo_sapiens|DRC|Equateur|Lotumbe|cz|2023-10-03:0.0000000001)Node418:0.0000053460,(23MPX1529V|Homo_sapiens|DRC|Equateur|Basankusu|cz|2023-10-06:0.0000000001,23MPX1554V|Homo_sapiens|DRC|Kinshasa|Nsele|cz|2023-10-25:0.0000000001)Node419:0.0000105156)Node416:0.0000052577,24MPX0756V|Homo_sapiens|Equateur|Lukolela|cz|2024-03-11:0.0000587617)Node406:0.0000376717)Node391:0.0000054808,24MPX0429V|Homo_sapiens|Maindombe|Oshwe|cz|2024-01-08:0.0000347531)Node390:0.0000000052,(23MPX1668C|Homo_sapiens|DRC|Maindombe|Inongo|cz|2023-10-31:0.0000000001,23MPX1669C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22:0.0000000001,23MPX1670V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22:0.0000053496,23MPX1671C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-18:0.0000000001,23MPX1672C|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-20:0.0000000001,23MPX1673V|Homo_sapiens|DRC|Maindombe|Kiri|cz|2023-10-22:0.0000000001)Node420:0.0000370652)Node389:0.0000109773,(24MPX0748V|Homo_sapiens|Tshopo|Yakusu|cz|2024-03-10:0.0000000001,24MPX0755S|Homo_sapiens|Equateur|Lukolela|cz|2024-03-11:0.0000000001,24MPX0757V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-04:0.0000147430,24MPX0758V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-04:0.0000000001,24MPX0765V|Homo_sapiens|Equateur|Ntondo|cz|2024-03-15:0.0000000001,24MPX0767V|Homo_sapiens|Equateur|Lilanga-Bobangi|cz|2024-03-10:0.0000000001,24MPX0823V|Homo_sapiens|Sud-Ubangi|Bulu|cz|2024-03-22:0.0000000001)Node425:0.0000201513)Node388:0.0000109769)Node67:0.0000105085,DQ011154|Homo_sapiens|RC|Likouala|Impfondo|bg|2003-06-09:0.0000262854,(MN702452|Homo_sapiens|CAR|Lobaye|Mongoumba|bg|2010-08-10:0.0000052685,MN702453|Homo_sapiens|CAR|Mbomou|Bangassou|bg|2001-08-11:0.0000000001)Node432:0.0000210743)Node66:0.0000945870,KJ642613|Homo_sapiens|DRC|Equateur|Bokenda|bg|1970-09-01:0.0000736853)Node65:0.0000053146,(((18MPX0170C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-02-13:0.0000162180,(18MPX0172C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-03-08:0.0000000001,18MPX0173C|Homo_sapiens|DRC|Bas-Uele|Buta|cz|2018-03-18:0.0000000001)Node436:0.0000537437)Node435:0.0000477194,(((23MPX0359V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21:0.0000000001,(23MPX0361V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21:0.0000000001,23MPX0362V|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-03-21:0.0000000002)Node441:0.0000059003,23MPX0476V|Homo_sapiens|DRC|Maindombe|Bosobe|cz|2023-04-04:0.0000054180)Node439:0.0000412993,(23MPX0464C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-13:0.0000000001,23MPX0465C|Homo_sapiens|DRC|Tshopo|Yahuma|cz|2023-04-13:0.0000000001)Node442:0.0000325430)Node438:0.0000176948,((MN702444|Homo_sapiens|CAR|Mambere-Kadei|Bao|bg|2017-02-06:0.0000000001,MN702445|Homo_sapiens|CAR|Mambere-Kadei|Bao|bg|2017-02-06:0.0000000001)Node446:0.0000217656,MN702446|Homo_sapiens|CAR|Mbomou|Rafai|bg|2018-04-14:0.0000252879,MN702449|Homo_sapiens|CAR|Mbomou|Bangassou|bg|2016-01-02:0.0000000001)Node444:0.0000063124,(MT724770|Crocidura_littoralis|DRC|Tshopo|Yangambi|bg|2014-01-01:0.0000000001,MT724772|Funisciurus_anerythrus|DRC|Tshopo|Tshopo|bg|2014-01-01:0.0000316254)Node447:0.0000158059)Node437:0.0000368045)Node434:0.0000683434,(DQ011155|Homo_sapiens|DRC|Sankuru|Mindembo|bg|1978-11-09:0.0000734540,((KC257459|Homo_sapiens|Sudan|Nuria||bg|2005-XX-XX:0.0000323395,OQ621553|Homo_sapiens|Sudan|||bg|2022-10-XX:0.0001912620)Node450:0.0000583391,KC257460|Homo_sapiens|DRC|Mongala|Yandongi|bg|1985-XX-XX:0.0000163750)Node449:0.0000311154)Node448:0.0000159252)Node433:0.0000367281)Node64:0.0000263796)Node42:0.0000105746)Node7:0.0000053622,((((22hMPX035C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15:0.0000000001,22hMPX035V|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15:0.0000000001)Node455:0.0000682357,(((22hMPX036C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15:0.0000109650,(22MPX0193C|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-21:0.0000000001,22MPX0193V|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-21:0.0000000001)Node470:0.0000107896)Node469:0.0000106982,((22MPX0035V|Homo_sapiens|DRC|Maniema|Kindu|co|2022-02-05:0.0000108795,22MPX0036V|Homo_sapiens|DRC|Maniema|Kindu|co|2022-02-05:0.0000000001)Node472:0.0000115264,22MPX0127C|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-05-13:0.0000054384)Node471:0.0000172094,22MPX0191V|Homo_sapiens|DRC|Maniema|Kindu|cz|2022-06-20:0.0000106142)Node467:0.0000504337,22MPX0317V|Homo_sapiens|DRC|Maniema|Alunguli|cz|2022-08-18:0.0000273385)Node466:0.0000168112,((((22hMPX037Or|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15:0.0000000001,22hMPX037V|Homo_sapiens|DRC|Maniema|Tunda|cz|2022-08-15:0.0000110833,(22hMPX040Or|Homo_sapiens|DRC|Maniema|Tunda|czd|2022-08-15:0.0000000001,22hMPX040V|Homo_sapiens|DRC|Maniema|Tunda|czd|2022-08-15:0.0000000001)Node462:0.0000120995)Node460:0.0000715560,(23MPX1484V|Homo_sapiens|DRC|Sankuru|Vanga-Kete|cz|2023-10-01:0.0000525271,JX878426|Homo_sapiens|DRC|Sankuru|Kole|bg|2007-05-27:0.0000112513)Node463:0.0000105098)Node459:0.0000270160,JX878408|Homo_sapiens|DRC|Sankuru|Katako-kombe|bg|2006-10-31:0.0000000001)Node458:0.0000052548,(JX878418|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-01-02:0.0000578423,NC_003310|Homo_sapiens|DRC|Sankuru|Katako-kombe|bg|1996-XX-XX:0.0004881223)Node464:0.0000052746,(JX878419|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-02-10:0.0000000001,JX878420|Homo_sapiens|DRC|Sankuru|Djalo-ndjeka|bg|2007-02-26:0.0000000001)Node465:0.0000315349)Node456:0.0000114812)Node453:0.0000511562,22MPX0113C|Homo_sapiens|DRC|Kwilu|Masi-manimba|cz|2022-05-13:0.0001034743)Node452:0.0000170458,KJ642612|Homo_sapiens|DRC|Kwilu|Idiofa-Ikubi|bg|1986-XX-XX:0.0001167695)Node451:0.0000689541,((KJ642618|Homo_sapiens|Cameroon|Centre-Region|Ekoumdouma|bg|1989-12-11:0.0001284823,OR943698|Pan_troglodytes|Cameroon|Centre-Region||bg|2016-08-XX:0.0001536628)Node474:0.0000495045,(KJ642619|Homo_sapiens|Gabon|Moyen-Ogooue|Lambarene|bg|1987-06-XX:0.0000105204,OP498046|Homo_sapiens|Gabon|||bg|1988-XX-XX:0.0000210383)Node475:0.0001310054)Node473:0.0000335270)Node5:0.0000277247,JX878417|Homo_sapiens|DRC|Sankuru|Bena-dibele|bg|2006-12-14:0.0001774551)Node4:0.0000454178,((((((((24MPX0204V|Homo_sapiens|Sud-Kivu|Kamituga|cz|2024-01-23:0.0000000003,RDC-NKV-GOM-MPOX142C|Homo_sapiens|Sud-Kivu|Kamituga|2023-12-02:0.0000055496,RDC-NKV-GOM-MPOX164C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001,RDC-NKV-GOM-MPOX167C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000176462,RDC-NKV-GOM-MPOX193Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001)Node488:0.0000054549,(RDC-NKV-GOM-MPOX045C|Homo_sapiens|Sud-Kivu|Kamituga|2023-10-28:0.0000000001,RDC-NKV-GOM-MPOX095C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-13:0.0000055573,RDC-NKV-GOM-MPOX098C|Homo_sapiens|Sud-Kivu|Kadutu|2023-11-11:0.0000000001,RDC-NKV-GOM-MPOX112C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-14:0.0000217704,RDC-NKV-GOM-MPOX180C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000169607)Node494:0.0000067836,(RDC-NKV-GOM-MPOX183C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001,RDC-NKV-GOM-MPOX195C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000055562,RDC-NKV-GOM-MPOX209C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001)Node498:0.0000054975,RDC-NKV-GOM-MPOX187Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001)Node487:0.0000062889,RDC-NKV-GOM-MPOX109C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-10:0.0000000001,RDC-NKV-GOM-MPOX157Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001,RDC-NKV-GOM-MPOX160Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001,RDC-NKV-GOM-MPOX169C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001)Node483:0.0000188273,((24MPX0212Or|Homo_sapiens|Sud-Kivu|Kamituga|cz|2024-01-20:0.0000000001,RDC-NKV-GOM-MPOX096Or|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-13:0.0000068514,RDC-NKV-GOM-MPOX156C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001,RDC-NKV-GOM-MPOX215C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-02:0.0000000001)Node503:0.0000200509,((RDC-NKV-GOM-MPOX043C|Homo_sapiens|Sud-Kivu|Kamituga|2023-10-23:0.0000652393,(RDC-NKV-GOM-MPOX063C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-03:0.0000000001,RDC-NKV-GOM-MPOX064Or|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-03:0.0000000001)Node512:0.0000072050,RDC-NKV-GOM-MPOX103C|Homo_sapiens|Sud-Kivu|Kamituga|2023-11-10:0.0000000001)Node510:0.0000074744,RDC-NKV-GOM-MPOX051C|Homo_sapiens|Sud-Kivu||2023-10-31:0.0000000001,RDC-NKV-GOM-MPOX099Or|Homo_sapiens|Sud-Kivu|Kadutu|2023-11-11:0.0000000001,RDC-NKV-GOM-MPOX172C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001,RDC-NKV-GOM-MPOX204C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000070029)Node506:0.0000073277,RDC-NKV-GOM-MPOX175C|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000000001,RDC-NKV-GOM-MPOX196Or|Homo_sapiens|Sud-Kivu|Kamituga|2024-01-03:0.0000069918)Node500:0.0000792019)Node482:0.0000134086,PP601221_24MPX0228V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-27:0.0000000003)Node481:0.0000052942,PP601208_24MPX0201V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23:0.0000000001,PP601213_24MPX0209V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-19:0.0000000001,PP601217_24MPX0221V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-26:0.0000056900,PP601219_24MPX0224C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-25:0.0000000001,PP601222_24MPX0230C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-31:0.0000105813,PP601223_24MPX0231V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-21:0.0000000001,PP601225_24MPX0240V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-14:0.0000052906)Node480:0.0000054223,(PP601207_24MPX0198V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23:0.0000000001,PP601210_24MPX0205V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-28:0.0000000001,PP601211_24MPX0206V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23:0.0000000001,(PP601212_24MPX0207Or|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23:0.0000000001,PP601226_24MPX0242V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-15:0.0000000001)Node525:0.0000053227,PP601215_24MPX0217V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23:0.0000000001,PP601216_24MPX0220V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-26:0.0000000001,PP601224_24MPX0239V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-10:0.0000000001)Node521:0.0000052898,PP601209_24MPX0203V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23:0.0000000001,PP601214_24MPX0214V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2024-01-23:0.0000000001,(PP601218_24MPX0223C|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-26:0.0000000001,PP601220_24MPX0226V|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-12-26:0.0000000001)Node520:0.0000052899)Node477:0.0000056260,PP601227_RDC-NKV-GOM-MPOX-004|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-10-05:0.0000000001,PP601228_RDC-NKV-GOM-MPOX-010|Homo_sapiens|DRC|Sud-Kivu|Kamituga|bg|2023-10-13:0.0000318061)Node476:0.0003985934)Node3:0.0032025367,(KJ642615:0.0002932510,KJ642617:0.0006645938)Node1:0.0004242340,KJ642616:0.0005569073)Node2;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta.treefile -m "HKY{5.48715}+F{0.33518,0.165344,0.165452,0.334024}" --length 196858
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /mnt/c/Users/2020el001/Documents/These/biomol/mpx/paper-phylo2/cov70/review70/530mpox429_98_3.aln.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Sep 20 02:49:40 2024
+Total CPU time used: 19588.625 seconds (5h:26m:28s)
+Total wall-clock time used: 20799.450082 seconds (5h:46m:39s)
+
