@@ -1,0 +1,185 @@
+nakazama_berthet	Group I	#a6cee3
+nakazama_berthet	Group II	#32b536
+nakazama_berthet	Group III	#fb9a99
+nakazama_berthet	Group IV	#ff7f00
+nakazama_berthet	Group V	#cab2d6
+nakazama_berthet	outgroup	#CBBAED
+
+suggested	Clade Ia - Group I	#a6cee3
+suggested	Clade Ia - Group II	#32b536
+suggested	Clade Ia - Group III	#fb9a99
+suggested	Clade Ia - novel #e31a1c
+suggested	Clade Ia - Group IV	#ff7f00
+suggested	Clade Ia - Group V	#cab2d6
+suggested	Clade Ib	#df0afc
+suggested	outgroup	#CBBAED
+
+year	1970-2017	#de9945
+year	2018-2021	#86de45
+year	2022	#45dea1
+year	2023	#457ede
+year	2024	#a845de
+
+region	Africa	#277DA1
+region	Asia	#90BE6D
+region	Europe	#F3722C
+region	Oceania	#4D908E
+region	South America	#F94144
+region	North America	#F9C74F
+region	West Asia	#43AA8B
+		
+country	USA	#CBBAED
+country	Denmark	#CBBAED
+country	Sierra Leonne	#CBBAED
+country	Cote Ivoire	#CBBAED
+country	South Africa	#CBBAED
+		
+country	Nigeria	#F8961E
+division	Abia	#F8961E
+location	Ihie	#F8961E
+division	Osun	#F8961E
+location	Omifunfun	#F8961E
+division	Rivers-State	#F8961E
+location	Port-Harcourt	#F8961E
+		
+country	Cameroon	#90BE6D
+division	Lekie	#90BE6D
+location	Ekoumdouma	#90BE6D
+		
+country	Gabon	#F9C74F
+division	Moyen-Ogooue	#F9C74F
+location	Lambarene	#F9C74F
+		
+country	South Sudan	#FB5012
+division	Rubkotna	#FB5012
+location	Nuria	#FB5012
+location	Bentiu	#FB5012
+location	Rubkona	#FB5012
+location	Modin	#FB5012
+		
+country	Central African Republic	#F94144
+division	Lobaye	#F94144
+location	Mbaiki	#F94144
+location	Mongoumba	#F94144
+division	Mambere-Kadei	#F94144
+location	Bao	#F94144
+division	Mbomou	#F94144
+location	Bakouma	#F94144
+location	Bangassou	#F94144
+location	Rafai	#F94144
+division	Ouaka	#F94144
+location	Ippy	#F94144
+		
+country	Republic of the Congo	#4D908E
+division	Likouala	#4D908E
+location	Impfondo	#4D908E
+		
+country	Democratic Republic of the Congo	#277DA1
+		
+division	Bas-Uele	#40B8E1
+location	Buta	#205C71
+location	Titule	#40B8E1
+		
+division	Haut-Uele	#3330B7
+location	Isiro	#1A185C
+location	Pawa	#3330B7
+		
+division	Equateur	#9FA8E1
+location	Basankusu	#505471
+location	Bikoro	#787EA9
+location	Bokenda	#8C93C5
+location	Bolomba	#969ED3
+location	Djombo	#9BA3DA
+location	Ingende	#9FA8E1
+location	Lotumbe	#A5AEE3
+location	Mbandaka	#ABB3E5
+location	Ntondo	#B7BEE9
+location	Wangata	#CFD4F0
+		
+division	Kasai	#35618F
+location	Kamuesha	#1B3148
+location	Mushenge	#35618F
+location	Ndjoko-Punda	#9AB0C7
+		
+division	Kinshasa	#10EDDC
+location	Gombe	#08776E
+location	Kintambo	#0CB2A5
+location	Lemba	#0ED0C1
+location	Limete	#10EDDC
+location	Matete	#4CF2E5
+location	Nsele	#88F6EE
+		
+division	Kwango	#C667f3
+location	Kasongo-Lunda	#63347A
+location	Kenge	#C667f3
+		
+division	Kwilu	#2A6A45
+location	Bagata	#205034
+location	Idiofa	#255D3D
+location	Kikongo	#2A6A45
+location	Masi-manimba	#609074
+location	Vanga	#95B5A2
+		
+division	Mai-Ndombe	#A5E841
+location	Banzow-Moke	#537421
+location	Bosobe	#7CAE31
+location	Inongo	#A5E841
+location	Kiri	#BCEE71
+location	Mushie	#D2F4A0
+		
+division	Maniema	#19A71F
+location	Kindu	#0D5410
+location	Obokote	#19A71F
+location	Tunda	#8CD38F
+		
+division	Mongala	#CDDB9B
+location	Bongandanga	#676E4E
+location	Boso-Manzi	#9AA575
+location	Bosondjo	#CDDB9B
+location	Yambuku	#DAE4B4
+location	Yandongi	#E6EDCD
+		
+division	Sankuru	#76480D
+location	Bena-Dibele	#3B2407
+location	Djalo-Ndjeka	#59360A
+location	Katako-Kombe	#683F0C
+location	Kole	#6F440D
+location	Lodja	#76480D
+location	Lomela	#7F541D
+location	Mindembo	#885F2C
+location	Ototo	#99764A
+location	Vanga-Kete	#BBA486
+		
+division	Sud-Kivu	#ED820A
+location	Kamituga	#ED820A
+		
+division	Sud-Ubangi	#F7B8A2
+location	Bangabola	#7C5C51
+location	Bogose-Nubea	#BA8A7A
+location	Bokonzi	#D9A18E
+location	Boto	#F7B8A2
+location	Bulu	#F8C1AE
+location	Libenge	#F9CABA
+location	Mbaya	#F9CABA
+location	Tandala	#FCE5DD
+		
+division	Tshopo	#C9245D
+location        Tshopo  #C9245D
+location	Bafwasende	#65122F
+location	Basali	#971B46
+location	Basoko	#A41E4C
+location	Bengamisa	#B02052
+location	Kabondo	#BD2258
+location	Kisangani	#BD2258
+location	Opala	#C9245D
+location	Ubundu	#CB2B63
+location	Wanie-Rukula	#CD3268
+location	Yabaondo	#CD3268
+location	Yahuma	#D04072
+location	Yakusu	#D75B86
+location	Yalimbongo	#E492AE
+location	Yalufi	#FF0000
+location	Yangambi	#FF0000
+		
+division	Tshuapa	#DAC925
+location	Boende	#DAC925

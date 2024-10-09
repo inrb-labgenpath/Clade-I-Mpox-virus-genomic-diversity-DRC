@@ -1,0 +1,180 @@
+---
+
+########I###R###D######U###2###3###3#######T###R###A###NA###S###V###I###H###M###I#########
+###                                                                                    ###
+###  /\  ______     _  _ ____ _  _ ____ ___ ____ ____   __   ____ _  _     ______  /\  ###
+###  ||  \ \ \ \   ( \( ( ___( \/ (_  _/ __(_  _(  _ \ /__\ (_  _( \( )   / / / /  ||  ###
+###  ||   > > > >   )  ( )__) )  (  )( \__ \ )(  )   //(__)\ _)(_ )  (   < < < <   ||  ###
+###  \/  /_/_/_/   (_)\_(____(_/\_)(__)(___/(__)(_)\_(__)(__(____(_)\_)   \_\_\_\  \/  ###
+###                                                                                    ###
+#########I###R###D######U###2###3###3#######T###R###A###N###S###V###I###H###M###I#########
+# Name ___________________ config.yaml
+# Version ________________ v.2024.09
+# Author _________________ Nicolas Fernandez
+# Affiliation ____________ IRD_U233_TransVIHMI
+# Aim ____________________ Configuration yaml file for augur.smk snakefile
+# Date ___________________ 2024.04.12
+# Latest modifications ___ 2024.06.20 (Migration to miniforge3)
+# Use ____________________ Edit default settings
+
+###############################################################################
+### RESOURCES ###
+#################
+resources:
+  cpus: '80'          # Set maximum cpus usage (for multithreading, default: "8") [INT]
+  ram: '960'          # Set maximum memory usage (in Gb, default: "16") [INT]
+  tmp_dir: '/scratch' # Temporary directory (default: "$TMPDIR")
+  ### Examples:
+    ### '$TMPDIR'  # System variable $TMPDIR (default)
+    ### '.'        # Local (i.e. GeVarLi root directory)
+    ### '/scratch' # HPC (set it to match your HPC usage)
+
+###############################################################################
+### INDEX ###
+#############
+index: # Count occurrence of bases in a set of sequences.
+  na: 'na'
+
+###############################################################################
+### FILTER ###
+##############
+filter: # Filter and subsample a sequence set.
+  exclude_file: 'resources/config/exclude_file.txt' # file(s) with list of strains to exclude
+  min_length: '100000' # minimal length of the sequences (default: None) [INT]
+  min_date: '1900' # minimal cutoff for date, the cutoff date is inclusive [2020 or YYYY-MM-DD or P1W]
+  max_date: '2024' # maximal cutoff for date, the cutoff date is inclusive [2020 or YYYY-MM-DD or P1W]
+  group_by: 'country year month' # categories with respect to subsample
+  sequences_per_group: '100' # subsample to no more than this number of sequences per category
+
+###############################################################################
+### ALIGN ###
+#############
+align: # Align multiple sequences from FASTA.
+  method: 'mafft' # alignment program to use (default: 'mafft')
+  refseq: 'resources/config/reference.fasta' # reference sequence to the dataset & strip insertions relative to this
+
+###############################################################################
+### MASK ###
+############
+mask: # Mask specified sites from a VCF or FASTA file.
+  beguin: '0' # Number of sites to mask from beginning (default: 0) [FASTA Only]
+  end: '0' # Number of sites to mask from end (default: 0) [FASTA Only]
+  sites : 'resources/config/mask_sites.txt' # 1-indexed list of sites to mask
+  file: 'resources/config/mask_file.bed' # locations to be masked, formats: BED file ; DRM  ; 1-indexed site per line
+
+###############################################################################
+### TREE ###
+############
+tree: # Build a tree using a variety of methods.
+  builder: # tree builder to use, choose only one (default: 'iqtree')
+    - 'iqtree'
+    #- 'fasttree'
+    #- 'raxml'
+  model: # substitution model to use, choose one (default: 'GTR')
+    - 'auto'   # Specify 'auto' to run ModelTest, only available for IQ-TREE !
+    #- 'GTR'    # GTR (default)
+    #- 'GTRCAT' # GTRCAT
+    #- 'other'  # other
+  arguments: # override default tree builder arguments with the values provided by the user (except for input alignment path, number of threads, and substitution model)
+    - '"-ninit 2 -n 2 -me 0.05 -nt AUTO -redo"' # IQ-TREE defaults
+    #- '"-nt -nosupport"'                        # FastTree defaults
+    #- '"-f d -m GTRCAT -c 25 -p 235813"'        # RAxML defaults
+    #- '"CUSTOM"'                                # Custom
+  exclude_sites: 'resources/config/exclude_site.bed' # file name of one-based sites to exclude for raw tree building
+                                                     # BED format in .bed files, second column in tab-delimited files, or one position per line
+
+###############################################################################
+### REFINE ###
+##############
+refine:
+  root: # rooting mechanism (default: 'best'), choose only one:
+    #- 'root' # Specify a known outgroup sequence for rooting
+    #- 'best'          # (default)
+    #- 'oldest'        # Use the oldest sequence in the metadata for rooting
+    - 'mid_point'     # Root the tree at the midpoint of the longest branch
+    #- 'least-squares' # Root the tree using least-squares optimization to minimize branch length discrepancies.
+    #- 'min_dev'       # Root the tree to minimize deviation in branch lengths.
+  coalescent: # coalescent time scale (default: 'opt'), choose only one:
+    #- 'opt' # Adjust a single constant coalescence rate over time
+    - 'skyline' # Allow varying coalescence rates to capture population changes
+    # Skyline issue: https://github.com/nextstrain/augur/issues/685#issuecomment-784916299
+  inference: # assign internal nodes to their marginally most likely dates, not jointly most likely (default: 'joint'), choose only one:
+    #- 'joint'    # Estimate ancestral states considering all sequences together for optimal accuracy
+    - 'marginal' # Estimate ancestral states independently for each site for faster results
+  clock_rate: '0.000004' # fixed clock rate [FLOAT]
+  clock_sd: '0.000001'   # standard deviation of the fixed clock_rate estimate
+  clock_filter: # remove tips that deviate more than n_iqd interquartile ranges from the root-to-tip vs time regression (default: '' no)
+    - ''                   # no (default)
+    #- '--clock-filter-iqd' # yes
+  polytomies: # How to resole polytomies, choose only one (defaul: '--greedy-resolve'):
+    '--keep-polytomies'    # Do not attempt to resolve polytomies (default: False)
+    #'--greedy-resolve'    # (default)
+    #'--stochastic-resolve' # Resolve polytomies via stochastic subtree building rather than greedy optimization
+
+###############################################################################
+### ANCESTRAL ###
+#################
+ancestral:
+  inference: # calculate joint or marginal maximum likelihood ancestral sequence states (default: 'joint'), choose only one:
+    #- 'joint'    # (default)
+    - 'marginal' #
+
+###############################################################################
+### TRANSLATE ###
+#################
+translate: # Translate gene regions from nucleotides to amino acids
+  genebank_reference: 'resources/config/mpox_reference_NC003310.gb' # GenBank or GFF file containing the annotation
+  genes_list: 'resources/config/genes_list.txt' # genes to translate, file containing or [LIST]
+
+###############################################################################
+### CLADES ###
+##############
+clades: # Assign clades to nodes in a tree based on amino-acid or nucleotide signatures
+  definition: 'resources/config/clades_definition.tsv' # TSV file containing clade definitions by amino-acid
+
+###############################################################################
+### TRAITS ###
+##############
+traits: # Infer ancestral traits based on a tree
+  fields: # metadata fields to perform discrete reconstruction on
+    - 'division'
+    - 'location'
+    - 'lienage'
+    - 'cluster'
+    #- 'other'
+    
+###############################################################################
+### SEQUENCE_TRAITS ###
+#######################
+sequence_traits:
+  field_to_count: ''
+  label : ''
+  drms_file: ''
+
+###############################################################################
+### EXPORT ###
+##############
+export:
+  version: #Export version, choose only one (default: 'v2'):
+    - 'v2' # Export version 2 JSON schema for visualization with Auspice (default)
+    #- 'v1' # Export version 1 JSON schema (separate meta and tree JSONs) for visualization with Auspice
+  colors: 'resources/config/colors.tsv'
+  lat_longs: 'resources/config/lat_longs.tsv'
+  auspice_config: 'resources/config/auspice_config.json'
+
+###############################################################################
+### ENVIRONNEMENTS ###
+######################
+conda:
+  frontend: # Conda frontend (default: mamba)
+  # Available options, choose one:
+    - 'mamba' # mamba (faster)
+    #- 'conda' # conda (iTrop)
+  yaml: # Conda environement yaml files:
+    augur: '../environments/augur_v.26.0.0.yaml'                  # Augur         ver. 26.0.0
+    auspice: '../environments/auspice_v.2.58.0.yaml'              # Auspice       ver. 2.58.0
+    gblocks: '../environments/gblocks_v.0.91b.yaml'               # Gblocks       ver. 0.91b
+    nextstrain: '../environments/nextstrain-cli_v.8.5.3.yaml'     # NextStrain    ver. 8.5.3
+    workflow_base: '../environments/workflow-base_v.2024.08.yaml' # Workflow-Base ver. 2024.08
+
+###############################################################################

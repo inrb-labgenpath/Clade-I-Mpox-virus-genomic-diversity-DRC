@@ -1,0 +1,115 @@
+{
+  "title": "Clade I Mpox virus genomic diversity in the Democratic Republic of the Congo, 2018 - 2024: Predominance of Zoonotic Transmission",
+  "maintainers": [
+    {"name": "Eddy Lusamaki", "url": "http://ird.fr/"}
+  ],
+  "build_url": "https://forge.ird.fr/transvihmi/nfernandez/Clade-I_Mpox-virus_genomic-diversity_DRC",
+  "colorings": [
+    {
+      "key": "region",
+      "title": "Continents",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Countries",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Provinces",
+      "type": "categorical"
+    },
+    {
+      "key": "location",
+      "title": "Health Zones",
+      "type": "categorical"
+    },
+    {
+      "key": "host",
+      "title": "Hosts",
+      "type": "categorical"
+    },
+    {
+      "key": "pipeline",
+      "title": "Assembly Methods",
+      "type": "categorical"
+    },
+    {
+      "key": "cat_year",
+      "title": "Years",
+      "type": "categorical"
+    },
+    {
+      "key": "clade",
+      "title": "Clades",
+      "type": "categorical"
+    },
+    {
+      "key": "subclade",
+      "title": "Subclades",
+      "type": "categorical"
+    },
+    {
+      "key": "lineage",
+      "title": "lineages",
+      "type": "categorical"
+    },
+    {
+      "key": "nakazama_berthet",
+      "title": "Nakazama and Bertht",
+      "type": "categorical"
+    },
+    {
+      "key": "subgroup",
+      "title": "Subgroups",
+      "type": "categorical"
+    },
+    {
+      "key": "cluster",
+      "title": "Cluster",
+      "type": "categorical"
+    },
+    {
+      "key": "study",
+      "title": "Studies",
+      "type": "categorical"
+    },
+    {
+      "key": "suggested",
+      "title": "Suggested",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "region",
+    "country",
+    "division",
+    "location"
+  ],
+  "panels": [
+     "tree",
+     "map",
+     "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "region",
+    "country",
+    "division",
+    "location",
+    "host",
+    "pipeline",
+    "cat_year",
+    "clade",
+    "subclade",
+    "lineage",
+    "nakazama_bertht",
+    "subgroup",
+    "cluster",
+    "study",
+    "suggested"
+  ]
+}
